@@ -1,0 +1,4915 @@
+{
+  "Game": "Pokemon Dreamstone Mysteries",
+  "Version": "Final (July 7, 2025)",
+  "Difficulty": "Normal",
+  "Trainers": {
+    "Kohla (Lab)": {
+      "Trainer": "Kohla",
+      "Battle Type": "Rival",
+      "Battle ID": "kohla_lab",
+      "Pokemon": [
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Rival",
+          "Battle ID": "kohla_lab",
+          "Pokémon": "Charcadet",
+          "Dex Number": 936,
+          "Level": 7,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Flash Fire",
+          "Move 1": "Aqua Jet",
+          "Move 2": "Leer",
+          "Move 3": "Poison Fang",
+          "Move 4": "Focus Energy",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
+          "types": [
+            "fire"
+          ],
+          "weight": 105,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 40
+            },
+            {
+              "name": "attack",
+              "value": 50
+            },
+            {
+              "name": "defense",
+              "value": 50
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 35
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Inger": {
+      "Trainer": "Inger",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "gastreegym_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Inger",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "gastreegym_leader",
+          "Pokémon": "Rockruff",
+          "Dex Number": 744,
+          "Level": 12,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Keen Eye",
+          "Move 1": "Tackle",
+          "Move 2": "Leer",
+          "Move 3": "Sand Attack",
+          "Move 4": "Rock Throw",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/744.png",
+          "types": [
+            "rock"
+          ],
+          "weight": 92,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 45
+            },
+            {
+              "name": "attack",
+              "value": 65
+            },
+            {
+              "name": "defense",
+              "value": 40
+            },
+            {
+              "name": "special-attack",
+              "value": 30
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "Trainer": "Inger",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "gastreegym_leader",
+          "Pokémon": "Geodude Alola",
+          "Dex Number": 10109,
+          "Level": 12,
+          "Item": "Oran Berry",
+          "Nature": "Hardy",
+          "Ability": "Magnet Pull",
+          "Move 1": "Charge",
+          "Move 2": "Rock Polish",
+          "Move 3": "Rollout",
+          "Move 4": "Spark",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
+          "types": [
+            "rock",
+            "electric"
+          ],
+          "weight": 203,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 40
+            },
+            {
+              "name": "attack",
+              "value": 80
+            },
+            {
+              "name": "defense",
+              "value": 100
+            },
+            {
+              "name": "special-attack",
+              "value": 30
+            },
+            {
+              "name": "special-defense",
+              "value": 30
+            },
+            {
+              "name": "speed",
+              "value": 20
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Inger",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "gastreegym_leader",
+          "Pokémon": "Minior",
+          "Dex Number": 774,
+          "Level": 13,
+          "Item": "Oran Berry",
+          "Nature": "Hardy",
+          "Ability": "Shields Down",
+          "Move 1": "Confuse Ray",
+          "Move 2": "Rollout",
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "weight": 400,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 60
+            },
+            {
+              "name": "defense",
+              "value": 100
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ]
+        }
+      ]
+    },
+    "Kohla (Gastree Kohla)": {
+      "Trainer": "Kohla (Gastree Kohla)",
+      "Battle Type": "Rival",
+      "Battle ID": "gastree_kohla",
+      "Pokemon": [
+        {
+          "Trainer": "Kohla (Gastree Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "gastree_kohla",
+          "Pokémon": "Yamper",
+          "Dex Number": 835,
+          "Level": 11,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Ball Fetch",
+          "Move 1": "Tackle",
+          "Move 2": "Tail Whip",
+          "Move 3": "Nuzzle",
+          "Move 4": "Bite",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
+          "types": [
+            "electric"
+          ],
+          "weight": 135,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 59
+            },
+            {
+              "name": "attack",
+              "value": 45
+            },
+            {
+              "name": "defense",
+              "value": 50
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 26
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla (Gastree Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "gastree_kohla",
+          "Pokémon": "Charcadet",
+          "Dex Number": 936,
+          "Level": 13,
+          "Item": "Oran Berry",
+          "Nature": "Hardy",
+          "Ability": "Flash Fire",
+          "Move 1": "Leer",
+          "Move 2": "Poison Fang",
+          "Move 3": "Focus Energy",
+          "Move 4": "Scary Face",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
+          "types": [
+            "fire"
+          ],
+          "weight": 105,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 40
+            },
+            {
+              "name": "attack",
+              "value": 50
+            },
+            {
+              "name": "defense",
+              "value": 50
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 35
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Kohla (Route 6 Kohla)": {
+      "Trainer": "Kohla (Route 6 Kohla)",
+      "Battle Type": "Rival",
+      "Battle ID": "route6_kohla",
+      "Pokemon": [
+        {
+          "Trainer": "Kohla (Route 6 Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "route6_kohla",
+          "Pokémon": "Boltund",
+          "Dex Number": 836,
+          "Level": 25,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Strong Jaw",
+          "Move 1": "Nuzzle",
+          "Move 2": "Bite",
+          "Move 3": "Roar",
+          "Move 4": "Spark",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/836.png",
+          "types": [
+            "electric"
+          ],
+          "weight": 340,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 69
+            },
+            {
+              "name": "attack",
+              "value": 90
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 90
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 121
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla (Route 6 Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "route6_kohla",
+          "Pokémon": "Kirlia",
+          "Dex Number": 281,
+          "Level": 28,
+          "Item": "Rocky Helmet",
+          "Nature": "Hardy",
+          "Ability": "Synchronize",
+          "Move 1": "Calm Mind",
+          "Move 2": "Thunder Wave",
+          "Move 3": "Stored Power",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
+          "types": [
+            "psychic",
+            "fairy"
+          ],
+          "weight": 202,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 38
+            },
+            {
+              "name": "attack",
+              "value": 35
+            },
+            {
+              "name": "defense",
+              "value": 35
+            },
+            {
+              "name": "special-attack",
+              "value": 65
+            },
+            {
+              "name": "special-defense",
+              "value": 55
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla (Route 6 Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "route6_kohla",
+          "Pokémon": "Scyther",
+          "Dex Number": 123,
+          "Level": 28,
+          "Item": "Flying Gem",
+          "Nature": "Adamant",
+          "Ability": "Technician",
+          "Move 1": "Dual Wingbeat",
+          "Move 2": "Thief",
+          "Move 3": "Bug Bite",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "weight": 560,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 110
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 105
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla (Route 6 Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "route6_kohla",
+          "Pokémon": "Dewott",
+          "Dex Number": 502,
+          "Level": 29,
+          "Item": "Kings Rock",
+          "Nature": "Hardy",
+          "Ability": "Torrent",
+          "Move 1": "Razor Shell",
+          "Move 2": "Fury Cutter",
+          "Move 3": "Water Pulse",
+          "Move 4": "Aerial Ace",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
+          "types": [
+            "water"
+          ],
+          "weight": 245,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 75
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 83
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla (Route 6 Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "route6_kohla",
+          "Pokémon": "Ceruledge",
+          "Dex Number": 937,
+          "Level": 31,
+          "Item": "Sitrus Berry",
+          "Nature": "Adamant",
+          "Ability": "Flash Fire",
+          "Move 1": "Swords Dance",
+          "Move 2": "Shadow Sneak",
+          "Move 3": "Will O Wisp",
+          "Move 4": "Flame Charge",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
+          "types": [
+            "fire",
+            "ghost"
+          ],
+          "weight": 620,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ]
+        }
+      ]
+    },
+    "Ariana": {
+      "Trainer": "Ariana",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "cerambasecampgym_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Ariana",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "cerambasecampgym_leader",
+          "Pokémon": "Growlithe Hisui",
+          "Dex Number": 10229,
+          "Level": 16,
+          "Item": "Oran Berry",
+          "Nature": "Hardy",
+          "Ability": "Intimidate",
+          "Move 1": "Flame Wheel",
+          "Move 2": "Bite",
+          "Move 3": "Rock Tomb",
+          "Move 4": "Roar",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10229.png",
+          "types": [
+            "fire",
+            "rock"
+          ],
+          "weight": 227,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 75
+            },
+            {
+              "name": "defense",
+              "value": 45
+            },
+            {
+              "name": "special-attack",
+              "value": 65
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 55
+            }
+          ]
+        },
+        {
+          "Trainer": "Ariana",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "cerambasecampgym_leader",
+          "Pokémon": "Sizzlipede",
+          "Dex Number": 850,
+          "Level": 16,
+          "Item": "Focus Sash",
+          "Nature": "Hardy",
+          "Ability": "Flash Fire",
+          "Move 1": "Smokescreen",
+          "Move 2": "Wrap",
+          "Move 3": "Bite",
+          "Move 4": "Flame Wheel",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/850.png",
+          "types": [
+            "fire",
+            "bug"
+          ],
+          "weight": 10,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 50
+            },
+            {
+              "name": "attack",
+              "value": 65
+            },
+            {
+              "name": "defense",
+              "value": 45
+            },
+            {
+              "name": "special-attack",
+              "value": 50
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 45
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Ariana",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "cerambasecampgym_leader",
+          "Pokémon": "Tauros Paldea Blaze",
+          "Dex Number": 128,
+          "Level": 17,
+          "Item": "Oran Berry",
+          "Nature": "Hardy",
+          "Ability": "Intimidate",
+          "Move 1": "Tail Whip",
+          "Move 2": "Work Up",
+          "Move 3": "Double Kick",
+          "Move 4": "Flame Charge",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+          "types": [
+            "normal"
+          ],
+          "weight": 884,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 100
+            },
+            {
+              "name": "defense",
+              "value": 95
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 110
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Moxie": {
+      "Trainer": "Moxie",
+      "Battle Type": "Admin",
+      "Battle ID": "cerampeak_moxie",
+      "Pokemon": [
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "cerampeak_moxie",
+          "Pokémon": "Impidimp",
+          "Dex Number": 859,
+          "Level": 19,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Prankster",
+          "Move 1": "Bite",
+          "Move 2": "Flatter",
+          "Move 3": "Fake Tears",
+          "Move 4": "Assurance",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png",
+          "types": [
+            "dark",
+            "fairy"
+          ],
+          "weight": 55,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 45
+            },
+            {
+              "name": "attack",
+              "value": 45
+            },
+            {
+              "name": "defense",
+              "value": 30
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "cerampeak_moxie",
+          "Pokémon": "Murkrow",
+          "Dex Number": 198,
+          "Level": 20,
+          "Item": "Oran Berry",
+          "Nature": "Hardy",
+          "Ability": "Insomnia",
+          "Move 1": "Astonish",
+          "Move 2": "Gust",
+          "Move 3": "Haze",
+          "Move 4": "Wing Attack",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+          "types": [
+            "dark",
+            "flying"
+          ],
+          "weight": 21,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 85
+            },
+            {
+              "name": "defense",
+              "value": 42
+            },
+            {
+              "name": "special-attack",
+              "value": 85
+            },
+            {
+              "name": "special-defense",
+              "value": 42
+            },
+            {
+              "name": "speed",
+              "value": 91
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "cerampeak_moxie",
+          "Pokémon": "Slowpoke Galar",
+          "Dex Number": 10164,
+          "Level": 22,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Gluttony",
+          "Move 1": "Acid",
+          "Move 2": "Yawn",
+          "Move 3": "Psychic",
+          "Move 4": "Water Pulse",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10164.png",
+          "types": [
+            "psychic"
+          ],
+          "weight": 360,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 90
+            },
+            {
+              "name": "attack",
+              "value": 65
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    "Kohla": {
+      "Trainer": "Kohla",
+      "Battle Type": "Boss",
+      "Battle ID": "galecrestgym_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "galecrestgym_leader",
+          "Pokémon": "Yamper",
+          "Dex Number": 835,
+          "Level": 20,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Ball Fetch",
+          "Move 1": "Nuzzle",
+          "Move 2": "Bite",
+          "Move 3": "Roar",
+          "Move 4": "Spark",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
+          "types": [
+            "electric"
+          ],
+          "weight": 135,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 59
+            },
+            {
+              "name": "attack",
+              "value": 45
+            },
+            {
+              "name": "defense",
+              "value": 50
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 26
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "galecrestgym_leader",
+          "Pokémon": "Kirlia",
+          "Dex Number": 281,
+          "Level": 21,
+          "Item": "Rocky Helmet",
+          "Nature": "Hardy",
+          "Ability": "Synchronize",
+          "Move 1": "Hypnosis",
+          "Move 2": "Draining Kiss",
+          "Move 3": "Teleport",
+          "Move 4": "Psybeam",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
+          "types": [
+            "psychic",
+            "fairy"
+          ],
+          "weight": 202,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 38
+            },
+            {
+              "name": "attack",
+              "value": 35
+            },
+            {
+              "name": "defense",
+              "value": 35
+            },
+            {
+              "name": "special-attack",
+              "value": 65
+            },
+            {
+              "name": "special-defense",
+              "value": 55
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "galecrestgym_leader",
+          "Pokémon": "Dewott",
+          "Dex Number": 502,
+          "Level": 21,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Torrent",
+          "Move 1": "Soak",
+          "Move 2": "Focus Energy",
+          "Move 3": "Razor Shell",
+          "Move 4": "Fury Cutter",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
+          "types": [
+            "water"
+          ],
+          "weight": 245,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 75
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 83
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "galecrestgym_leader",
+          "Pokémon": "Ceruledge",
+          "Dex Number": 937,
+          "Level": 23,
+          "Item": "Sitrus Berry",
+          "Nature": "Hardy",
+          "Ability": "Flash Fire",
+          "Move 1": "Shadow Sneak",
+          "Move 2": "Swords Dance",
+          "Move 3": "Will O Wisp",
+          "Move 4": "Flame Charge",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
+          "types": [
+            "fire",
+            "ghost"
+          ],
+          "weight": 620,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ]
+        }
+      ]
+    },
+    "Gloria": {
+      "Trainer": "Gloria",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "silversungym_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Gloria",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "silversungym_leader",
+          "Pokémon": "Bayleef",
+          "Dex Number": 153,
+          "Level": 25,
+          "Item": "Light Clay",
+          "Nature": "Hardy",
+          "Ability": "Overgrow",
+          "Move 1": "Sunny Day",
+          "Move 2": "Magical Leaf",
+          "Move 3": "Synthesis",
+          "Move 4": "Stomping Tantrum",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
+          "types": [
+            "grass"
+          ],
+          "weight": 158,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 62
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 63
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "Trainer": "Gloria",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "silversungym_leader",
+          "Pokémon": "Roserade",
+          "Dex Number": 407,
+          "Level": 26,
+          "Item": "Big Root",
+          "Nature": "Hardy",
+          "Ability": "Natural Cure",
+          "Move 1": "Growth",
+          "Move 2": "Giga Drain",
+          "Move 3": "Ingrain",
+          "Move 4": "Sludge Bomb",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "weight": 145,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 70
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 125
+            },
+            {
+              "name": "special-defense",
+              "value": 105
+            },
+            {
+              "name": "speed",
+              "value": 90
+            }
+          ]
+        },
+        {
+          "Trainer": "Gloria",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "silversungym_leader",
+          "Pokémon": "Linoone Galar",
+          "Dex Number": 10175,
+          "Level": 26,
+          "Item": "Sitrus Berry",
+          "Nature": "Hardy",
+          "Ability": "Pickup",
+          "Move 1": "Belly Drum",
+          "Move 2": "Extremespeed",
+          "Move 3": "Night Slash",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
+          "types": [
+            "dark",
+            "normal"
+          ],
+          "weight": 325,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 78
+            },
+            {
+              "name": "attack",
+              "value": 70
+            },
+            {
+              "name": "defense",
+              "value": 61
+            },
+            {
+              "name": "special-attack",
+              "value": 50
+            },
+            {
+              "name": "special-defense",
+              "value": 61
+            },
+            {
+              "name": "speed",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "Trainer": "Gloria",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "silversungym_leader",
+          "Pokémon": "Bombirdier",
+          "Dex Number": 962,
+          "Level": 28,
+          "Item": "Rock Gem",
+          "Nature": "Hardy",
+          "Ability": "Rocky Payload",
+          "Move 1": "Rock Slide",
+          "Move 2": "Acrobatics",
+          "Move 3": "Knock Off",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png",
+          "types": [
+            "flying",
+            "dark"
+          ],
+          "weight": 429,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 103
+            },
+            {
+              "name": "defense",
+              "value": 85
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 85
+            },
+            {
+              "name": "speed",
+              "value": 82
+            }
+          ]
+        }
+      ]
+    },
+    "Melea": {
+      "Trainer": "Melea",
+      "Battle Type": "Admin",
+      "Battle ID": "somberhq_melea",
+      "Pokemon": [
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "somberhq_melea",
+          "Pokémon": "Yanmega",
+          "Dex Number": 469,
+          "Level": 28,
+          "Item": "Petaya Berry",
+          "Nature": "Modest",
+          "Ability": "Speed Boost",
+          "Move 1": "Air Slash",
+          "Move 2": "Bug Buzz",
+          "Move 3": "Ancient Power",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "weight": 515,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 86
+            },
+            {
+              "name": "attack",
+              "value": 76
+            },
+            {
+              "name": "defense",
+              "value": 86
+            },
+            {
+              "name": "special-attack",
+              "value": 116
+            },
+            {
+              "name": "special-defense",
+              "value": 56
+            },
+            {
+              "name": "speed",
+              "value": 95
+            }
+          ]
+        },
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "somberhq_melea",
+          "Pokémon": "Slowpoke Galar",
+          "Dex Number": 10164,
+          "Level": 27,
+          "Item": "Light Clay",
+          "Nature": "Hardy",
+          "Ability": "Gluttony",
+          "Move 1": "Light Screen",
+          "Move 2": "Zen Headbutt",
+          "Move 3": "Liquidation",
+          "Move 4": "Yawn",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10164.png",
+          "types": [
+            "psychic"
+          ],
+          "weight": 360,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 90
+            },
+            {
+              "name": "attack",
+              "value": 65
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "somberhq_melea",
+          "Pokémon": "Grimer Alola",
+          "Dex Number": 10112,
+          "Level": 28,
+          "Item": "Poison Barb",
+          "Nature": "Hardy",
+          "Ability": "Poison Touch",
+          "Move 1": "Toxic",
+          "Move 2": "Fling",
+          "Move 3": "Venoshock",
+          "Move 4": "Rock Slide",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10112.png",
+          "types": [
+            "poison",
+            "dark"
+          ],
+          "weight": 420,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 80
+            },
+            {
+              "name": "attack",
+              "value": 80
+            },
+            {
+              "name": "defense",
+              "value": 50
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "somberhq_melea",
+          "Pokémon": "Absol",
+          "Dex Number": 359,
+          "Level": 29,
+          "Item": "Life Orb",
+          "Nature": "Adamant",
+          "Ability": "Pressure",
+          "Move 1": "Knock Off",
+          "Move 2": "Sucker Punch",
+          "Move 3": "Swords Dance",
+          "Move 4": "Play Rough",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
+          "types": [
+            "dark"
+          ],
+          "weight": 470,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 65
+            },
+            {
+              "name": "attack",
+              "value": 130
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 75
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 75
+            }
+          ]
+        }
+      ]
+    },
+    "Kohla (Mirroh Base Camp Kohla)": {
+      "Trainer": "Kohla (Mirroh Base Camp Kohla)",
+      "Battle Type": "Rival",
+      "Battle ID": "mirrohbasecamp_kohla",
+      "Pokemon": [
+        {
+          "Trainer": "Kohla (Mirroh Base Camp Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "mirrohbasecamp_kohla",
+          "Pokémon": "Scyther",
+          "Dex Number": 123,
+          "Level": 31,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Swarm",
+          "Move 1": "Double Team",
+          "Move 2": "Double Hit",
+          "Move 3": "Slash",
+          "Move 4": "Focus Energy",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "weight": 560,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 110
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 105
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla (Mirroh Base Camp Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "mirrohbasecamp_kohla",
+          "Pokémon": "Dewott",
+          "Dex Number": 502,
+          "Level": 31,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Torrent",
+          "Move 1": "Razor Shell",
+          "Move 2": "Fury Cutter",
+          "Move 3": "Water Pulse",
+          "Move 4": "Aerial Ace",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
+          "types": [
+            "water"
+          ],
+          "weight": 245,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 75
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 83
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Kohla (Mirroh Base Camp Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "mirrohbasecamp_kohla",
+          "Pokémon": "Gallade",
+          "Dex Number": 475,
+          "Level": 32,
+          "Item": "Galladite",
+          "Nature": "Hardy",
+          "Ability": "Steadfast",
+          "Move 1": "Aerial Ace",
+          "Move 2": "Psycho Cut",
+          "Move 3": "Drain Punch",
+          "Move 4": "Bulk Up",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
+          "types": [
+            "psychic",
+            "fighting"
+          ],
+          "weight": 520,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 68
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 65
+            },
+            {
+              "name": "special-defense",
+              "value": 115
+            },
+            {
+              "name": "speed",
+              "value": 80
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla (Mirroh Base Camp Kohla)",
+          "Battle Type": "Rival",
+          "Battle ID": "mirrohbasecamp_kohla",
+          "Pokémon": "Ceruledge",
+          "Dex Number": 937,
+          "Level": 33,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Flash Fire",
+          "Move 1": "Night Shade",
+          "Move 2": "Flame Charge",
+          "Move 3": "Incinerate",
+          "Move 4": "Lava Plume",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
+          "types": [
+            "fire",
+            "ghost"
+          ],
+          "weight": 620,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Carona": {
+      "Trainer": "Carona",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "mirrohbasecamp_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Carona",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "mirrohbasecamp_leader",
+          "Pokémon": "Sneasler",
+          "Dex Number": 903,
+          "Level": 31,
+          "Item": "Fighting Gem",
+          "Nature": "Hardy",
+          "Ability": "Unburden",
+          "Move 1": "Dire Claw",
+          "Move 2": "Acrobatics",
+          "Move 3": "Close Combat",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
+          "types": [
+            "fighting",
+            "poison"
+          ],
+          "weight": 430,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 80
+            },
+            {
+              "name": "attack",
+              "value": 130
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 120
+            }
+          ]
+        },
+        {
+          "Trainer": "Carona",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "mirrohbasecamp_leader",
+          "Pokémon": "Pangoro",
+          "Dex Number": 675,
+          "Level": 32,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Iron Fist",
+          "Move 1": "Bullet Punch",
+          "Move 2": "Drain Punch",
+          "Move 3": "Power Up Punch",
+          "Move 4": "Thunder Punch",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
+          "types": [
+            "fighting",
+            "dark"
+          ],
+          "weight": 1360,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 124
+            },
+            {
+              "name": "defense",
+              "value": 78
+            },
+            {
+              "name": "special-attack",
+              "value": 69
+            },
+            {
+              "name": "special-defense",
+              "value": 71
+            },
+            {
+              "name": "speed",
+              "value": 58
+            }
+          ]
+        },
+        {
+          "Trainer": "Carona",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "mirrohbasecamp_leader",
+          "Pokémon": "Annihilape",
+          "Dex Number": 979,
+          "Level": 32,
+          "Item": "Life Orb",
+          "Nature": "Hardy",
+          "Ability": "Defiant",
+          "Move 1": "Rage Fist",
+          "Move 2": "Bulk Up",
+          "Move 3": "Drain Punch",
+          "Move 4": "Rock Slide",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
+          "types": [
+            "fighting",
+            "ghost"
+          ],
+          "weight": 560,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 110
+            },
+            {
+              "name": "attack",
+              "value": 115
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 50
+            },
+            {
+              "name": "special-defense",
+              "value": 90
+            },
+            {
+              "name": "speed",
+              "value": 90
+            }
+          ]
+        },
+        {
+          "Trainer": "Carona",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "mirrohbasecamp_leader",
+          "Pokémon": "Medicham",
+          "Dex Number": 308,
+          "Level": 34,
+          "Item": "Medichamite",
+          "Nature": "Hardy",
+          "Ability": "Pure Power",
+          "Move 1": "Hi Jump Kick",
+          "Move 2": "Psycho Cut",
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
+          "types": [
+            "fighting",
+            "psychic"
+          ],
+          "weight": 315,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 60
+            },
+            {
+              "name": "defense",
+              "value": 75
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 75
+            },
+            {
+              "name": "speed",
+              "value": 80
+            }
+          ]
+        }
+      ]
+    },
+    "Moxie (Mirrohpeak Moxie)": {
+      "Trainer": "Moxie",
+      "Battle Type": "Admin",
+      "Battle ID": "mirrohpeak_moxie",
+      "Pokemon": [
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "mirrohpeak_moxie",
+          "Pokémon": "Morgrem",
+          "Dex Number": 860,
+          "Level": 38,
+          "Item": "Eviolite",
+          "Nature": "Hardy",
+          "Ability": "Prankster",
+          "Move 1": "Fake Out",
+          "Move 2": "Dazzling Gleam",
+          "Move 3": "Reflect",
+          "Move 4": "Light Screen",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/860.png",
+          "types": [
+            "dark",
+            "fairy"
+          ],
+          "weight": 125,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 65
+            },
+            {
+              "name": "attack",
+              "value": 60
+            },
+            {
+              "name": "defense",
+              "value": 45
+            },
+            {
+              "name": "special-attack",
+              "value": 75
+            },
+            {
+              "name": "special-defense",
+              "value": 55
+            },
+            {
+              "name": "speed",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "mirrohpeak_moxie",
+          "Pokémon": "Honchkrow",
+          "Dex Number": 430,
+          "Level": 39,
+          "Item": "Razor Claw",
+          "Nature": "Hardy",
+          "Ability": "Super Luck",
+          "Move 1": "Taunt",
+          "Move 2": "Sucker Punch",
+          "Move 3": "Aerial Ace",
+          "Move 4": "Night Slash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
+          "types": [
+            "dark",
+            "flying"
+          ],
+          "weight": 273,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 100
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 52
+            },
+            {
+              "name": "special-attack",
+              "value": 105
+            },
+            {
+              "name": "special-defense",
+              "value": 52
+            },
+            {
+              "name": "speed",
+              "value": 71
+            }
+          ]
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "mirrohpeak_moxie",
+          "Pokémon": "Slowking Galar",
+          "Dex Number": 10172,
+          "Level": 39,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Regenerator",
+          "Move 1": "Toxic",
+          "Move 2": "Sludge Bomb",
+          "Move 3": "Calm Mind",
+          "Move 4": "Slack Off",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10172.png",
+          "types": [
+            "poison",
+            "psychic"
+          ],
+          "weight": 795,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 65
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 110
+            },
+            {
+              "name": "special-defense",
+              "value": 110
+            },
+            {
+              "name": "speed",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "mirrohpeak_moxie",
+          "Pokémon": "Houndoom",
+          "Dex Number": 229,
+          "Level": 42,
+          "Item": "Houndoominite",
+          "Nature": "Hardy",
+          "Ability": "Early Bird",
+          "Move 1": "Flamethrower",
+          "Move 2": "Dark Pulse",
+          "Move 3": "Sludge Bomb",
+          "Move 4": "Nasty Plot",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+          "types": [
+            "dark",
+            "fire"
+          ],
+          "weight": 350,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 90
+            },
+            {
+              "name": "defense",
+              "value": 50
+            },
+            {
+              "name": "special-attack",
+              "value": 110
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 95
+            }
+          ]
+        }
+      ]
+    },
+    "Viniel": {
+      "Trainer": "Viniel",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "winterlily_hollow_gym_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Viniel",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "winterlily_hollow_gym_leader",
+          "Pokémon": "Kilowattrel",
+          "Dex Number": 941,
+          "Level": 41,
+          "Item": "Focus Sash",
+          "Nature": "Hardy",
+          "Ability": "Wind Power",
+          "Move 1": "Uproar",
+          "Move 2": "Roost",
+          "Move 3": "Dual Wingbeat",
+          "Move 4": "Agility",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png",
+          "types": [
+            "electric",
+            "flying"
+          ],
+          "weight": 386,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 70
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 105
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 125
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Viniel",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "winterlily_hollow_gym_leader",
+          "Pokémon": "Toxtricity",
+          "Dex Number": 849,
+          "Level": 42,
+          "Item": "Throat Spray",
+          "Nature": "Hardy",
+          "Ability": "Punk Rock",
+          "Move 1": "Swagger",
+          "Move 2": "Toxic",
+          "Move 3": "Discharge",
+          "Move 4": "Poison Jab",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/849.png",
+          "types": [
+            "electric",
+            "poison"
+          ],
+          "weight": 400,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 98
+            },
+            {
+              "name": "defense",
+              "value": 70
+            },
+            {
+              "name": "special-attack",
+              "value": 114
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 75
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Viniel",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "winterlily_hollow_gym_leader",
+          "Pokémon": "Lanturn",
+          "Dex Number": 171,
+          "Level": 42,
+          "Item": "Electric Seed",
+          "Nature": "Hardy",
+          "Ability": "Volt Absorb",
+          "Move 1": "Charge",
+          "Move 2": "Discharge",
+          "Move 3": "Aqua Ring",
+          "Move 4": "Flail",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/171.png",
+          "types": [
+            "water",
+            "electric"
+          ],
+          "weight": 225,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 125
+            },
+            {
+              "name": "attack",
+              "value": 58
+            },
+            {
+              "name": "defense",
+              "value": 58
+            },
+            {
+              "name": "special-attack",
+              "value": 76
+            },
+            {
+              "name": "special-defense",
+              "value": 76
+            },
+            {
+              "name": "speed",
+              "value": 67
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Viniel",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "winterlily_hollow_gym_leader",
+          "Pokémon": "Manectric",
+          "Dex Number": 310,
+          "Level": 45,
+          "Item": "Manectite",
+          "Nature": "Hardy",
+          "Ability": "Static",
+          "Move 1": "Thunder Fang",
+          "Move 2": "Roar",
+          "Move 3": "Discharge",
+          "Move 4": "Charge",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/310.png",
+          "types": [
+            "electric"
+          ],
+          "weight": 402,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 75
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 105
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 105
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Jania": {
+      "Trainer": "Jania",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "pelluca_city_gym_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Jania",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "pelluca_city_gym_leader",
+          "Pokémon": "Pelipper",
+          "Dex Number": 279,
+          "Level": 41,
+          "Item": "Damp Rock",
+          "Nature": "Hardy",
+          "Ability": "Drizzle",
+          "Move 1": "Rain Dance",
+          "Move 2": "Hurricane",
+          "Move 3": "Muddy Water",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "weight": 280,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 50
+            },
+            {
+              "name": "defense",
+              "value": 100
+            },
+            {
+              "name": "special-attack",
+              "value": 95
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 65
+            }
+          ]
+        },
+        {
+          "Trainer": "Jania",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "pelluca_city_gym_leader",
+          "Pokémon": "Clawitzer",
+          "Dex Number": 693,
+          "Level": 43,
+          "Item": "Choice Specs",
+          "Nature": "Hardy",
+          "Ability": "Mega Launcher",
+          "Move 1": "Water Pulse",
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
+          "types": [
+            "water"
+          ],
+          "weight": 353,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 71
+            },
+            {
+              "name": "attack",
+              "value": 73
+            },
+            {
+              "name": "defense",
+              "value": 88
+            },
+            {
+              "name": "special-attack",
+              "value": 120
+            },
+            {
+              "name": "special-defense",
+              "value": 89
+            },
+            {
+              "name": "speed",
+              "value": 59
+            }
+          ]
+        },
+        {
+          "Trainer": "Jania",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "pelluca_city_gym_leader",
+          "Pokémon": "Toxapex",
+          "Dex Number": 748,
+          "Level": 42,
+          "Item": "Black Sludge",
+          "Nature": "Hardy",
+          "Ability": "Merciless",
+          "Move 1": "Muddy Water",
+          "Move 2": "Toxic",
+          "Move 3": "Baneful Bunker",
+          "Move 4": "Recover",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
+          "types": [
+            "poison",
+            "water"
+          ],
+          "weight": 145,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 50
+            },
+            {
+              "name": "attack",
+              "value": 63
+            },
+            {
+              "name": "defense",
+              "value": 152
+            },
+            {
+              "name": "special-attack",
+              "value": 53
+            },
+            {
+              "name": "special-defense",
+              "value": 142
+            },
+            {
+              "name": "speed",
+              "value": 35
+            }
+          ]
+        },
+        {
+          "Trainer": "Jania",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "pelluca_city_gym_leader",
+          "Pokémon": "Toedscruel",
+          "Dex Number": 949,
+          "Level": 43,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Mycelium Might",
+          "Move 1": "Mud Shot",
+          "Move 2": "Hex",
+          "Move 3": "Seed Bomb",
+          "Move 4": "Spore",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png",
+          "types": [
+            "ground",
+            "grass"
+          ],
+          "weight": 580,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 80
+            },
+            {
+              "name": "attack",
+              "value": 70
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 80
+            },
+            {
+              "name": "special-defense",
+              "value": 120
+            },
+            {
+              "name": "speed",
+              "value": 100
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Jania",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "pelluca_city_gym_leader",
+          "Pokémon": "Gyarados",
+          "Dex Number": 130,
+          "Level": 45,
+          "Item": "Gyaradosite",
+          "Nature": "Hardy",
+          "Ability": "Intimidate",
+          "Move 1": "Aqua Tail",
+          "Move 2": "Dragon Dance",
+          "Move 3": "Hydro Pump",
+          "Move 4": "Hurricane",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+          "types": [
+            "water",
+            "flying"
+          ],
+          "weight": 2350,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 79
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 81
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Boss": {
+      "Trainer": "Boss",
+      "Battle Type": "Boss",
+      "Battle ID": "pelluca_qwilsquad_boss",
+      "Pokemon": [
+        {
+          "Trainer": "Boss",
+          "Battle Type": "Boss",
+          "Battle ID": "pelluca_qwilsquad_boss",
+          "Pokémon": "Lairon",
+          "Dex Number": 305,
+          "Level": 30,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Sturdy",
+          "Move 1": "Headbutt",
+          "Move 2": "Protect",
+          "Move 3": "Rock Slide",
+          "Move 4": "Iron Head",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/305.png",
+          "types": [
+            "steel",
+            "rock"
+          ],
+          "weight": 1200,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 90
+            },
+            {
+              "name": "defense",
+              "value": 140
+            },
+            {
+              "name": "special-attack",
+              "value": 50
+            },
+            {
+              "name": "special-defense",
+              "value": 50
+            },
+            {
+              "name": "speed",
+              "value": 40
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Boss",
+          "Battle Type": "Boss",
+          "Battle ID": "pelluca_qwilsquad_boss",
+          "Pokémon": "Dhelmise",
+          "Dex Number": 781,
+          "Level": 30,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Steelworker",
+          "Move 1": "Growth",
+          "Move 2": "Gyro Ball",
+          "Move 3": "Switcheroo",
+          "Move 4": "Giga Drain",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/781.png",
+          "types": [
+            "ghost",
+            "grass"
+          ],
+          "weight": 2100,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 131
+            },
+            {
+              "name": "defense",
+              "value": 100
+            },
+            {
+              "name": "special-attack",
+              "value": 86
+            },
+            {
+              "name": "special-defense",
+              "value": 90
+            },
+            {
+              "name": "speed",
+              "value": 40
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Boss",
+          "Battle Type": "Boss",
+          "Battle ID": "pelluca_qwilsquad_boss",
+          "Pokémon": "Overqwil",
+          "Dex Number": 904,
+          "Level": 32,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Poison Point",
+          "Move 1": "Spikes",
+          "Move 2": "Brine",
+          "Move 3": "Barb Barrage",
+          "Move 4": "Pin Missile",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
+          "types": [
+            "dark",
+            "poison"
+          ],
+          "weight": 605,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 85
+            },
+            {
+              "name": "attack",
+              "value": 115
+            },
+            {
+              "name": "defense",
+              "value": 95
+            },
+            {
+              "name": "special-attack",
+              "value": 65
+            },
+            {
+              "name": "special-defense",
+              "value": 65
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Inger (Sselegant Inger)": {
+      "Trainer": "Inger",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "sselegant_inger",
+      "Pokemon": [
+        {
+          "Trainer": "Inger",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "sselegant_inger",
+          "Pokémon": "Lycanroc",
+          "Dex Number": 745,
+          "Level": 45,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Keen Eye",
+          "Move 1": "Rock Tomb",
+          "Move 2": "Roar",
+          "Move 3": "Rock Slide",
+          "Move 4": "Crunch",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/745.png",
+          "types": [
+            "rock"
+          ],
+          "weight": 250,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 115
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 65
+            },
+            {
+              "name": "speed",
+              "value": 112
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Inger",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "sselegant_inger",
+          "Pokémon": "Golem Alola",
+          "Dex Number": 10111,
+          "Level": 46,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Magnet Pull",
+          "Move 1": "Stealth Rock",
+          "Move 2": "Rock Blast",
+          "Move 3": "Discharge",
+          "Move 4": "Explosion",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png",
+          "types": [
+            "rock",
+            "electric"
+          ],
+          "weight": 3160,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 80
+            },
+            {
+              "name": "attack",
+              "value": 120
+            },
+            {
+              "name": "defense",
+              "value": 130
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 65
+            },
+            {
+              "name": "speed",
+              "value": 45
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Inger",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "sselegant_inger",
+          "Pokémon": "Minior",
+          "Dex Number": 774,
+          "Level": 47,
+          "Item": "Sitrus Berry",
+          "Nature": "Hardy",
+          "Ability": "Shields Down",
+          "Move 1": "Cosmic Power",
+          "Move 2": "Power Gem",
+          "Move 3": "Double Edge",
+          "Move 4": "Shell Smash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/774.png",
+          "types": [
+            "rock",
+            "flying"
+          ],
+          "weight": 400,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 60
+            },
+            {
+              "name": "defense",
+              "value": 100
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Ariana (Sselegant Ariana)": {
+      "Trainer": "Ariana",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "sselegant_ariana",
+      "Pokemon": [
+        {
+          "Trainer": "Ariana",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "sselegant_ariana",
+          "Pokémon": "Talonflame",
+          "Dex Number": 663,
+          "Level": 47,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Flame Body",
+          "Move 1": "Acrobatics",
+          "Move 2": "Agility",
+          "Move 3": "Aerial Ace",
+          "Move 4": "Tailwind",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
+          "types": [
+            "fire",
+            "flying"
+          ],
+          "weight": 245,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 78
+            },
+            {
+              "name": "attack",
+              "value": 81
+            },
+            {
+              "name": "defense",
+              "value": 71
+            },
+            {
+              "name": "special-attack",
+              "value": 74
+            },
+            {
+              "name": "special-defense",
+              "value": 69
+            },
+            {
+              "name": "speed",
+              "value": 126
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Ariana",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "sselegant_ariana",
+          "Pokémon": "Centiskorch",
+          "Dex Number": 851,
+          "Level": 47,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Flash Fire",
+          "Move 1": "Coil",
+          "Move 2": "Slam",
+          "Move 3": "Fire Spin",
+          "Move 4": "Crunch",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/851.png",
+          "types": [
+            "fire",
+            "bug"
+          ],
+          "weight": 1200,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 100
+            },
+            {
+              "name": "attack",
+              "value": 115
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 90
+            },
+            {
+              "name": "special-defense",
+              "value": 90
+            },
+            {
+              "name": "speed",
+              "value": 65
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Ariana",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "sselegant_ariana",
+          "Pokémon": "Tauros Paldea Blaze",
+          "Dex Number": 128,
+          "Level": 49,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Intimidate",
+          "Move 1": "Zen Headbutt",
+          "Move 2": "Raging Bull",
+          "Move 3": "Rest",
+          "Move 4": "Swagger",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+          "types": [
+            "normal"
+          ],
+          "weight": 884,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 100
+            },
+            {
+              "name": "defense",
+              "value": 95
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 110
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Raazi": {
+      "Trainer": "Raazi",
+      "Battle Type": "Gym Leader",
+      "Battle ID": "rivetshore_gym_leader",
+      "Pokemon": [
+        {
+          "Trainer": "Raazi",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "rivetshore_gym_leader",
+          "Pokémon": "Dugtrio Alola",
+          "Dex Number": 10106,
+          "Level": 48,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Sand Veil",
+          "Move 1": "Sandstorm",
+          "Move 2": "Dig",
+          "Move 3": "Earth Power",
+          "Move 4": "Earthquake",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+          "types": [
+            "ground",
+            "steel"
+          ],
+          "weight": 666,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 35
+            },
+            {
+              "name": "attack",
+              "value": 100
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 50
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 110
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Raazi",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "rivetshore_gym_leader",
+          "Pokémon": "Skarmory",
+          "Dex Number": 227,
+          "Level": 50,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Weak Armor",
+          "Move 1": "Body Press",
+          "Move 2": "Drill Peck",
+          "Move 3": "Roost",
+          "Move 4": "Iron Defense",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/227.png",
+          "types": [
+            "steel",
+            "flying"
+          ],
+          "weight": 505,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 65
+            },
+            {
+              "name": "attack",
+              "value": 80
+            },
+            {
+              "name": "defense",
+              "value": 140
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 70
+            }
+          ]
+        },
+        {
+          "Trainer": "Raazi",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "rivetshore_gym_leader",
+          "Pokémon": "Excadrill",
+          "Dex Number": 530,
+          "Level": 51,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Sand Rush",
+          "Move 1": "Rock Slide",
+          "Move 2": "Dig",
+          "Move 3": "Swords Dance",
+          "Move 4": "Drill Run",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
+          "types": [
+            "ground",
+            "steel"
+          ],
+          "weight": 404,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 110
+            },
+            {
+              "name": "attack",
+              "value": 135
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 50
+            },
+            {
+              "name": "special-defense",
+              "value": 65
+            },
+            {
+              "name": "speed",
+              "value": 88
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Raazi",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "rivetshore_gym_leader",
+          "Pokémon": "Coalossal",
+          "Dex Number": 839,
+          "Level": 51,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Steam Engine",
+          "Move 1": "Ancient Power",
+          "Move 2": "Incinerate",
+          "Move 3": "Stealth Rock",
+          "Move 4": "Heat Crash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/839.png",
+          "types": [
+            "rock",
+            "fire"
+          ],
+          "weight": 3105,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 110
+            },
+            {
+              "name": "attack",
+              "value": 80
+            },
+            {
+              "name": "defense",
+              "value": 120
+            },
+            {
+              "name": "special-attack",
+              "value": 80
+            },
+            {
+              "name": "special-defense",
+              "value": 90
+            },
+            {
+              "name": "speed",
+              "value": 30
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Raazi",
+          "Battle Type": "Gym Leader",
+          "Battle ID": "rivetshore_gym_leader",
+          "Pokémon": "Aggron",
+          "Dex Number": 306,
+          "Level": 52,
+          "Item": "Aggronite",
+          "Nature": "Hardy",
+          "Ability": "Sturdy",
+          "Move 1": "Iron Head",
+          "Move 2": "Metal Sound",
+          "Move 3": "Take Down",
+          "Move 4": "Autotomize",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
+          "types": [
+            "steel",
+            "rock"
+          ],
+          "weight": 3600,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 110
+            },
+            {
+              "name": "defense",
+              "value": 180
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Moxie (Uncharted Island Moxie)": {
+      "Trainer": "Moxie",
+      "Battle Type": "Admin",
+      "Battle ID": "uncharted_island_moxie",
+      "Pokemon": [
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_moxie",
+          "Pokémon": "Grimmsnarl",
+          "Dex Number": 861,
+          "Level": 49,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Prankster",
+          "Move 1": "Torment",
+          "Move 2": "Dark Pulse",
+          "Move 3": "Nasty Plot",
+          "Move 4": "Play Rough",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/861.png",
+          "types": [
+            "dark",
+            "fairy"
+          ],
+          "weight": 610,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 120
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 95
+            },
+            {
+              "name": "special-defense",
+              "value": 75
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_moxie",
+          "Pokémon": "Honchkrow",
+          "Dex Number": 430,
+          "Level": 50,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Insomnia",
+          "Move 1": "Quash",
+          "Move 2": "Swagger",
+          "Move 3": "Nasty Plot",
+          "Move 4": "Foul Play",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
+          "types": [
+            "dark",
+            "flying"
+          ],
+          "weight": 273,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 100
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 52
+            },
+            {
+              "name": "special-attack",
+              "value": 105
+            },
+            {
+              "name": "special-defense",
+              "value": 52
+            },
+            {
+              "name": "speed",
+              "value": 71
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_moxie",
+          "Pokémon": "Slowking Galar",
+          "Dex Number": 10172,
+          "Level": 50,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Curious Medicine",
+          "Move 1": "Psychic",
+          "Move 2": "Psych Up",
+          "Move 3": "Rain Dance",
+          "Move 4": "Heal Pulse",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10172.png",
+          "types": [
+            "poison",
+            "psychic"
+          ],
+          "weight": 795,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 65
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 110
+            },
+            {
+              "name": "special-defense",
+              "value": 110
+            },
+            {
+              "name": "speed",
+              "value": 30
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_moxie",
+          "Pokémon": "Great Tusk",
+          "Dex Number": 984,
+          "Level": 51,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Protosynthesis",
+          "Move 1": "Brick Break",
+          "Move 2": "Stomping Tantrum",
+          "Move 3": "Knock Off",
+          "Move 4": "Earthquake",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png",
+          "types": [
+            "ground",
+            "fighting"
+          ],
+          "weight": 3200,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 115
+            },
+            {
+              "name": "attack",
+              "value": 131
+            },
+            {
+              "name": "defense",
+              "value": 131
+            },
+            {
+              "name": "special-attack",
+              "value": 53
+            },
+            {
+              "name": "special-defense",
+              "value": 53
+            },
+            {
+              "name": "speed",
+              "value": 87
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Moxie",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_moxie",
+          "Pokémon": "Houndoom",
+          "Dex Number": 229,
+          "Level": 52,
+          "Item": "Houndoominite",
+          "Nature": "Hardy",
+          "Ability": "Early Bird",
+          "Move 1": "Torment",
+          "Move 2": "Comeuppance",
+          "Move 3": "Foul Play",
+          "Move 4": "Flamethrower",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+          "types": [
+            "dark",
+            "fire"
+          ],
+          "weight": 350,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 90
+            },
+            {
+              "name": "defense",
+              "value": 50
+            },
+            {
+              "name": "special-attack",
+              "value": 110
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 95
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Melea (Uncharted Island Melea)": {
+      "Trainer": "Melea",
+      "Battle Type": "Admin",
+      "Battle ID": "uncharted_island_melea",
+      "Pokemon": [
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_melea",
+          "Pokémon": "Yanmega",
+          "Dex Number": 469,
+          "Level": 50,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Speed Boost",
+          "Move 1": "Feint",
+          "Move 2": "Slash",
+          "Move 3": "Screech",
+          "Move 4": "U Turn",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "weight": 515,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 86
+            },
+            {
+              "name": "attack",
+              "value": 76
+            },
+            {
+              "name": "defense",
+              "value": 86
+            },
+            {
+              "name": "special-attack",
+              "value": 116
+            },
+            {
+              "name": "special-defense",
+              "value": 56
+            },
+            {
+              "name": "speed",
+              "value": 95
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_melea",
+          "Pokémon": "Muk Alola",
+          "Dex Number": 10113,
+          "Level": 51,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Poison Touch",
+          "Move 1": "Crunch",
+          "Move 2": "Screech",
+          "Move 3": "Gunk Shot",
+          "Move 4": "Acid Armor",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+          "types": [
+            "poison",
+            "dark"
+          ],
+          "weight": 520,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 105
+            },
+            {
+              "name": "attack",
+              "value": 105
+            },
+            {
+              "name": "defense",
+              "value": 75
+            },
+            {
+              "name": "special-attack",
+              "value": 65
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_melea",
+          "Pokémon": "Slowbro Galar",
+          "Dex Number": 10165,
+          "Level": 51,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Quick Draw",
+          "Move 1": "Psychic",
+          "Move 2": "Psych Up",
+          "Move 3": "Rain Dance",
+          "Move 4": "Heal Pulse",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10165.png",
+          "types": [
+            "poison",
+            "psychic"
+          ],
+          "weight": 705,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 100
+            },
+            {
+              "name": "defense",
+              "value": 95
+            },
+            {
+              "name": "special-attack",
+              "value": 100
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 30
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_melea",
+          "Pokémon": "Flutter Mane",
+          "Dex Number": 987,
+          "Level": 52,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Protosynthesis",
+          "Move 1": "Wish",
+          "Move 2": "Dazzling Gleam",
+          "Move 3": "Shadow Ball",
+          "Move 4": "Mystical Fire",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png",
+          "types": [
+            "ghost",
+            "fairy"
+          ],
+          "weight": 40,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 55
+            },
+            {
+              "name": "attack",
+              "value": 55
+            },
+            {
+              "name": "defense",
+              "value": 55
+            },
+            {
+              "name": "special-attack",
+              "value": 135
+            },
+            {
+              "name": "special-defense",
+              "value": 135
+            },
+            {
+              "name": "speed",
+              "value": 135
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Melea",
+          "Battle Type": "Admin",
+          "Battle ID": "uncharted_island_melea",
+          "Pokémon": "Absol",
+          "Dex Number": 359,
+          "Level": 53,
+          "Item": "Absolite",
+          "Nature": "Hardy",
+          "Ability": "Pressure",
+          "Move 1": "Focus Energy",
+          "Move 2": "Sucker Punch",
+          "Move 3": "Swords Dance",
+          "Move 4": "Future Sight",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
+          "types": [
+            "dark"
+          ],
+          "weight": 470,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 65
+            },
+            {
+              "name": "attack",
+              "value": 130
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 75
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 75
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Chara": {
+      "Trainer": "Chara",
+      "Battle Type": "Boss",
+      "Battle ID": "championship_a",
+      "Pokemon": [
+        {
+          "Trainer": "Chara",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_a",
+          "Pokémon": "Meganium",
+          "Dex Number": 154,
+          "Level": 57,
+          "Item": "Heat Rock",
+          "Nature": "Hardy",
+          "Ability": "Overgrow",
+          "Move 1": "Sunny Day",
+          "Move 2": "Solar Beam",
+          "Move 3": "Stomping Tantrum",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
+          "types": [
+            "grass"
+          ],
+          "weight": 1005,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 80
+            },
+            {
+              "name": "attack",
+              "value": 82
+            },
+            {
+              "name": "defense",
+              "value": 100
+            },
+            {
+              "name": "special-attack",
+              "value": 83
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 80
+            }
+          ]
+        },
+        {
+          "Trainer": "Chara",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_a",
+          "Pokémon": "Ursaluna",
+          "Dex Number": 901,
+          "Level": 58,
+          "Item": "Flame Orb",
+          "Nature": "Hardy",
+          "Ability": "Guts",
+          "Move 1": "Facade",
+          "Move 2": "Earthquake",
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/901.png",
+          "types": [
+            "ground",
+            "normal"
+          ],
+          "weight": 2900,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 130
+            },
+            {
+              "name": "attack",
+              "value": 140
+            },
+            {
+              "name": "defense",
+              "value": 105
+            },
+            {
+              "name": "special-attack",
+              "value": 45
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "Trainer": "Chara",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_a",
+          "Pokémon": "Typhlosion Hisui",
+          "Dex Number": 10233,
+          "Level": 58,
+          "Item": "Choice Scarf",
+          "Nature": "Hardy",
+          "Ability": "Blaze",
+          "Move 1": "Overheat",
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
+          "types": [
+            "fire",
+            "ghost"
+          ],
+          "weight": 698,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 73
+            },
+            {
+              "name": "attack",
+              "value": 84
+            },
+            {
+              "name": "defense",
+              "value": 78
+            },
+            {
+              "name": "special-attack",
+              "value": 119
+            },
+            {
+              "name": "special-defense",
+              "value": 85
+            },
+            {
+              "name": "speed",
+              "value": 95
+            }
+          ]
+        },
+        {
+          "Trainer": "Chara",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_a",
+          "Pokémon": "Forretress",
+          "Dex Number": 205,
+          "Level": 59,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Sturdy",
+          "Move 1": "Explosion",
+          "Move 2": "Iron Defense",
+          "Move 3": "Gyro Ball",
+          "Move 4": "Double Edge",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
+          "types": [
+            "bug",
+            "steel"
+          ],
+          "weight": 1258,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 90
+            },
+            {
+              "name": "defense",
+              "value": 140
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 40
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Chara",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_a",
+          "Pokémon": "Altaria",
+          "Dex Number": 334,
+          "Level": 61,
+          "Item": "Altarianite",
+          "Nature": "Hardy",
+          "Ability": "Natural Cure",
+          "Move 1": "Take Down",
+          "Move 2": "Moonblast",
+          "Move 3": "Perish Song",
+          "Move 4": "Sky Attack",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
+          "types": [
+            "dragon",
+            "flying"
+          ],
+          "weight": 206,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 70
+            },
+            {
+              "name": "defense",
+              "value": 90
+            },
+            {
+              "name": "special-attack",
+              "value": 70
+            },
+            {
+              "name": "special-defense",
+              "value": 105
+            },
+            {
+              "name": "speed",
+              "value": 80
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Stanja": {
+      "Trainer": "Stanja",
+      "Battle Type": "Boss",
+      "Battle ID": "championship_b",
+      "Pokemon": [
+        {
+          "Trainer": "Stanja",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_b",
+          "Pokémon": "Glimmora",
+          "Dex Number": 970,
+          "Level": 58,
+          "Item": "Power Herb",
+          "Nature": "Hardy",
+          "Ability": "Toxic Debris",
+          "Move 1": "Meteor Beam",
+          "Move 2": "Sludge Wave",
+          "Move 3": "Stealth Rock",
+          "Move 4": "Solar Beam",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png",
+          "types": [
+            "rock",
+            "poison"
+          ],
+          "weight": 450,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 83
+            },
+            {
+              "name": "attack",
+              "value": 55
+            },
+            {
+              "name": "defense",
+              "value": 90
+            },
+            {
+              "name": "special-attack",
+              "value": 130
+            },
+            {
+              "name": "special-defense",
+              "value": 81
+            },
+            {
+              "name": "speed",
+              "value": 86
+            }
+          ]
+        },
+        {
+          "Trainer": "Stanja",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_b",
+          "Pokémon": "Scolipede",
+          "Dex Number": 545,
+          "Level": 59,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Poison Point",
+          "Move 1": "Take Down",
+          "Move 2": "Agility",
+          "Move 3": "Toxic",
+          "Move 4": "Venom Drench",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
+          "types": [
+            "bug",
+            "poison"
+          ],
+          "weight": 2005,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 100
+            },
+            {
+              "name": "defense",
+              "value": 89
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 69
+            },
+            {
+              "name": "speed",
+              "value": 112
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Stanja",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_b",
+          "Pokémon": "Amoonguss",
+          "Dex Number": 591,
+          "Level": 60,
+          "Item": "Rocky Helmet",
+          "Nature": "Hardy",
+          "Ability": "Effect Spore",
+          "Move 1": "Toxic",
+          "Move 2": "Rage Powder",
+          "Move 3": "Solar Beam",
+          "Move 4": "Spore",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
+          "types": [
+            "grass",
+            "poison"
+          ],
+          "weight": 105,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 114
+            },
+            {
+              "name": "attack",
+              "value": 85
+            },
+            {
+              "name": "defense",
+              "value": 70
+            },
+            {
+              "name": "special-attack",
+              "value": 85
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 30
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Stanja",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_b",
+          "Pokémon": "Toxapex",
+          "Dex Number": 748,
+          "Level": 60,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Merciless",
+          "Move 1": "Liquidation",
+          "Move 2": "Acid Spray",
+          "Move 3": "Poison Jab",
+          "Move 4": "Toxic",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
+          "types": [
+            "poison",
+            "water"
+          ],
+          "weight": 145,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 50
+            },
+            {
+              "name": "attack",
+              "value": 63
+            },
+            {
+              "name": "defense",
+              "value": 152
+            },
+            {
+              "name": "special-attack",
+              "value": 53
+            },
+            {
+              "name": "special-defense",
+              "value": 142
+            },
+            {
+              "name": "speed",
+              "value": 35
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Stanja",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_b",
+          "Pokémon": "Pinsir",
+          "Dex Number": 127,
+          "Level": 61,
+          "Item": "Pinsirite",
+          "Nature": "Hardy",
+          "Ability": "Hyper Cutter",
+          "Move 1": "X Scissor",
+          "Move 2": "Swords Dance",
+          "Move 3": "Quick Attack",
+          "Move 4": "Double Edge",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+          "types": [
+            "bug"
+          ],
+          "weight": 550,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 65
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 100
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ]
+        }
+      ]
+    },
+    "Berger": {
+      "Trainer": "Berger",
+      "Battle Type": "Boss",
+      "Battle ID": "championship_c",
+      "Pokemon": [
+        {
+          "Trainer": "Berger",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_c",
+          "Pokémon": "Ninetales Alola",
+          "Dex Number": 10104,
+          "Level": 60,
+          "Item": "Icy Rock",
+          "Nature": "Hardy",
+          "Ability": "Snow Warning",
+          "Move 1": "Aurora Veil",
+          "Move 2": "Moonblast",
+          "Move 3": "Blizzard",
+          "Move 4": "Freeze Dry",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
+          "types": [
+            "ice",
+            "fairy"
+          ],
+          "weight": 199,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 73
+            },
+            {
+              "name": "attack",
+              "value": 67
+            },
+            {
+              "name": "defense",
+              "value": 75
+            },
+            {
+              "name": "special-attack",
+              "value": 81
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 109
+            }
+          ]
+        },
+        {
+          "Trainer": "Berger",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_c",
+          "Pokémon": "Baxcalibur",
+          "Dex Number": 998,
+          "Level": 62,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Ice Body",
+          "Move 1": "Take Down",
+          "Move 2": "Ice Beam",
+          "Move 3": "Crunch",
+          "Move 4": "Icicle Crash",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png",
+          "types": [
+            "dragon",
+            "ice"
+          ],
+          "weight": 2100,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 115
+            },
+            {
+              "name": "attack",
+              "value": 145
+            },
+            {
+              "name": "defense",
+              "value": 92
+            },
+            {
+              "name": "special-attack",
+              "value": 75
+            },
+            {
+              "name": "special-defense",
+              "value": 86
+            },
+            {
+              "name": "speed",
+              "value": 87
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Berger",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_c",
+          "Pokémon": "Tinkaton",
+          "Dex Number": 959,
+          "Level": 61,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Mold Breaker",
+          "Move 1": "Fake Out",
+          "Move 2": "Flatter",
+          "Move 3": "Skitter Smack",
+          "Move 4": "Knock Off",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
+          "types": [
+            "fairy",
+            "steel"
+          ],
+          "weight": 1128,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 85
+            },
+            {
+              "name": "attack",
+              "value": 75
+            },
+            {
+              "name": "defense",
+              "value": 77
+            },
+            {
+              "name": "special-attack",
+              "value": 70
+            },
+            {
+              "name": "special-defense",
+              "value": 105
+            },
+            {
+              "name": "speed",
+              "value": 94
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Berger",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_c",
+          "Pokémon": "Rapidash Galar",
+          "Dex Number": 10163,
+          "Level": 60,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Run Away",
+          "Move 1": "Heal Pulse",
+          "Move 2": "Take Down",
+          "Move 3": "Dazzling Gleam",
+          "Move 4": "Psychic",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10163.png",
+          "types": [
+            "psychic",
+            "fairy"
+          ],
+          "weight": 800,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 65
+            },
+            {
+              "name": "attack",
+              "value": 100
+            },
+            {
+              "name": "defense",
+              "value": 70
+            },
+            {
+              "name": "special-attack",
+              "value": 80
+            },
+            {
+              "name": "special-defense",
+              "value": 80
+            },
+            {
+              "name": "speed",
+              "value": 105
+            }
+          ],
+          "Default Moveset": true
+        },
+        {
+          "Trainer": "Berger",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_c",
+          "Pokémon": "Avalugg Hisui",
+          "Dex Number": 10243,
+          "Level": 63,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Strong Jaw",
+          "Move 1": "Blizzard",
+          "Move 2": "Double Edge",
+          "Move 3": "Stone Edge",
+          "Move 4": "Mountain Gale",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10243.png",
+          "types": [
+            "ice",
+            "rock"
+          ],
+          "weight": 2624,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 127
+            },
+            {
+              "name": "defense",
+              "value": 184
+            },
+            {
+              "name": "special-attack",
+              "value": 34
+            },
+            {
+              "name": "special-defense",
+              "value": 36
+            },
+            {
+              "name": "speed",
+              "value": 38
+            }
+          ],
+          "Default Moveset": true
+        }
+      ]
+    },
+    "Gabrielle": {
+      "Trainer": "Gabrielle",
+      "Battle Type": "Boss",
+      "Battle ID": "championship_d",
+      "Pokemon": [
+        {
+          "Trainer": "Gabrielle",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_d",
+          "Pokémon": "Claydol",
+          "Dex Number": 344,
+          "Level": 62,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Levitate",
+          "Move 1": "Stealth Rock",
+          "Move 2": "Psychic",
+          "Move 3": "Scorching Sands",
+          "Move 4": "Toxic",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/344.png",
+          "types": [
+            "ground",
+            "psychic"
+          ],
+          "weight": 1080,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 70
+            },
+            {
+              "name": "defense",
+              "value": 105
+            },
+            {
+              "name": "special-attack",
+              "value": 70
+            },
+            {
+              "name": "special-defense",
+              "value": 120
+            },
+            {
+              "name": "speed",
+              "value": 75
+            }
+          ]
+        },
+        {
+          "Trainer": "Gabrielle",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_d",
+          "Pokémon": "Zoroark Hisui",
+          "Dex Number": 10239,
+          "Level": 63,
+          "Item": "Life Orb",
+          "Nature": "Hardy",
+          "Ability": "Illusion",
+          "Move 1": "Nasty Plot",
+          "Move 2": "Shadow Ball",
+          "Move 3": "Hyper Voice",
+          "Move 4": "Focus Blast",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10239.png",
+          "types": [
+            "normal",
+            "ghost"
+          ],
+          "weight": 730,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 55
+            },
+            {
+              "name": "attack",
+              "value": 100
+            },
+            {
+              "name": "defense",
+              "value": 60
+            },
+            {
+              "name": "special-attack",
+              "value": 125
+            },
+            {
+              "name": "special-defense",
+              "value": 60
+            },
+            {
+              "name": "speed",
+              "value": 110
+            }
+          ]
+        },
+        {
+          "Trainer": "Gabrielle",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_d",
+          "Pokémon": "Kommo O",
+          "Dex Number": 784,
+          "Level": 63,
+          "Item": "Throat Spray",
+          "Nature": "Hardy",
+          "Ability": "Bulletproof",
+          "Move 1": "Clangorous Soul",
+          "Move 2": "Clanging Scales",
+          "Move 3": "Boomburst",
+          "Move 4": "Earthquake",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/784.png",
+          "types": [
+            "dragon",
+            "fighting"
+          ],
+          "weight": 782,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 110
+            },
+            {
+              "name": "defense",
+              "value": 125
+            },
+            {
+              "name": "special-attack",
+              "value": 100
+            },
+            {
+              "name": "special-defense",
+              "value": 105
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ]
+        },
+        {
+          "Trainer": "Gabrielle",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_d",
+          "Pokémon": "Milotic",
+          "Dex Number": 350,
+          "Level": 62,
+          "Item": "Sitrus Berry",
+          "Nature": "Hardy",
+          "Ability": "Competitive",
+          "Move 1": "Calm Mind",
+          "Move 2": "Scald",
+          "Move 3": "Recover",
+          "Move 4": "Confuse Ray",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+          "types": [
+            "water"
+          ],
+          "weight": 1620,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 95
+            },
+            {
+              "name": "attack",
+              "value": 60
+            },
+            {
+              "name": "defense",
+              "value": 79
+            },
+            {
+              "name": "special-attack",
+              "value": 100
+            },
+            {
+              "name": "special-defense",
+              "value": 125
+            },
+            {
+              "name": "speed",
+              "value": 81
+            }
+          ]
+        },
+        {
+          "Trainer": "Gabrielle",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_d",
+          "Pokémon": "Mawile",
+          "Dex Number": 303,
+          "Level": 63,
+          "Item": "Mawilite",
+          "Nature": "Hardy",
+          "Ability": "Hyper Cutter",
+          "Move 1": "Swords Dance",
+          "Move 2": "Play Rough",
+          "Move 3": "Sucker Punch",
+          "Move 4": "Brick Break",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
+          "types": [
+            "steel",
+            "fairy"
+          ],
+          "weight": 115,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 50
+            },
+            {
+              "name": "attack",
+              "value": 85
+            },
+            {
+              "name": "defense",
+              "value": 85
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 55
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ]
+        }
+      ]
+    },
+    "Kohla (Championship E)": {
+      "Trainer": "Kohla",
+      "Battle Type": "Boss",
+      "Battle ID": "championship_e",
+      "Pokemon": [
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_e",
+          "Pokémon": "Samurott Hisui",
+          "Dex Number": 10236,
+          "Level": 62,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Sharpness",
+          "Move 1": "Flip Turn",
+          "Move 2": "Ceaseless Edge",
+          "Move 3": "Aqua Jet",
+          "Move 4": "Sacred Sword",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png",
+          "types": [
+            "water",
+            "dark"
+          ],
+          "weight": 582,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 90
+            },
+            {
+              "name": "attack",
+              "value": 108
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 100
+            },
+            {
+              "name": "special-defense",
+              "value": 65
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_e",
+          "Pokémon": "Kleavor",
+          "Dex Number": 900,
+          "Level": 62,
+          "Item": "Focus Sash",
+          "Nature": "Hardy",
+          "Ability": "Sharpness",
+          "Move 1": "Stone Axe",
+          "Move 2": "X Scissor",
+          "Move 3": "Trailblaze",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
+          "types": [
+            "bug",
+            "rock"
+          ],
+          "weight": 890,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 70
+            },
+            {
+              "name": "attack",
+              "value": 135
+            },
+            {
+              "name": "defense",
+              "value": 95
+            },
+            {
+              "name": "special-attack",
+              "value": 45
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_e",
+          "Pokémon": "Togekiss",
+          "Dex Number": 468,
+          "Level": 63,
+          "Item": "Leftovers",
+          "Nature": "Hardy",
+          "Ability": "Serene Grace",
+          "Move 1": "Thunder Wave",
+          "Move 2": "Air Slash",
+          "Move 3": "Nasty Plot",
+          "Move 4": "Roost",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
+          "types": [
+            "fairy",
+            "flying"
+          ],
+          "weight": 380,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 85
+            },
+            {
+              "name": "attack",
+              "value": 50
+            },
+            {
+              "name": "defense",
+              "value": 95
+            },
+            {
+              "name": "special-attack",
+              "value": 120
+            },
+            {
+              "name": "special-defense",
+              "value": 115
+            },
+            {
+              "name": "speed",
+              "value": 80
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_e",
+          "Pokémon": "Aegislash",
+          "Dex Number": 681,
+          "Level": 63,
+          "Item": "Air Balloon",
+          "Nature": "Hardy",
+          "Ability": "Stance Change",
+          "Move 1": "Kings Shield",
+          "Move 2": "Shadow Ball",
+          "Move 3": "Shadow Sneak",
+          "Move 4": "Flash Cannon",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
+          "types": [
+            "steel",
+            "ghost"
+          ],
+          "weight": 530,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 50
+            },
+            {
+              "name": "defense",
+              "value": 140
+            },
+            {
+              "name": "special-attack",
+              "value": 50
+            },
+            {
+              "name": "special-defense",
+              "value": 140
+            },
+            {
+              "name": "speed",
+              "value": 60
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_e",
+          "Pokémon": "Gallade",
+          "Dex Number": 475,
+          "Level": 64,
+          "Item": "Galladite",
+          "Nature": "Hardy",
+          "Ability": "Steadfast",
+          "Move 1": "Drain Punch",
+          "Move 2": "Zen Headbutt",
+          "Move 3": "Shadow Sneak",
+          "Move 4": "Fire Punch",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
+          "types": [
+            "psychic",
+            "fighting"
+          ],
+          "weight": 520,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 68
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 65
+            },
+            {
+              "name": "special-attack",
+              "value": 65
+            },
+            {
+              "name": "special-defense",
+              "value": 115
+            },
+            {
+              "name": "speed",
+              "value": 80
+            }
+          ]
+        },
+        {
+          "Trainer": "Kohla",
+          "Battle Type": "Boss",
+          "Battle ID": "championship_e",
+          "Pokémon": "Ceruledge",
+          "Dex Number": 937,
+          "Level": 65,
+          "Item": "Life Orb",
+          "Nature": "Hardy",
+          "Ability": "Weak Armor",
+          "Move 1": "Bitter Blade",
+          "Move 2": "Swords Dance",
+          "Move 3": "Shadow Sneak",
+          "Move 4": "Close Combat",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
+          "types": [
+            "fire",
+            "ghost"
+          ],
+          "weight": 620,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 75
+            },
+            {
+              "name": "attack",
+              "value": 125
+            },
+            {
+              "name": "defense",
+              "value": 80
+            },
+            {
+              "name": "special-attack",
+              "value": 60
+            },
+            {
+              "name": "special-defense",
+              "value": 100
+            },
+            {
+              "name": "speed",
+              "value": 85
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Note": "Moves marked with \"Default Moveset\": true were not custom-defined by the trainer in the game's source data and were computed from the species' level-up learnset (extracted directly from the game's ROM) instead. Trainer order approximates story progression based on the source file's authoring order plus location-name matching for newly-added battles; it is not verified against full map-traversal data."
+}
