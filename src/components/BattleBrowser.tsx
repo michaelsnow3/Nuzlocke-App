@@ -1,13 +1,36 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router";
 import { Tooltip, Whisper } from "rsuite";
-import type { ActiveTrainer, FormattedPokemon, MoveDetail, RawPokemon, TrainerEntry } from "../types/battle";
-import { formatPokemon } from "../lib/pokeapi";
+import type { ActiveTrainer, FormattedPokemon, MoveDetail, MoveSlot, RawPokemon, TrainerEntry } from "../types/battle";
+import { fetchAllMoveNames, fetchMove, formatPokemon } from "../lib/pokeapi";
+import { applyOverrides, getOverride, loadOverrides, setMoveOverride } from "../lib/moveOverrides";
+import { setLastGame } from "../lib/lastGame";
 import { DamageClassIcon, PowerIcon } from "./MoveIcon";
+import { statAbbreviation, statBarWidth, statColor } from "../lib/statColor";
+import NavTabs from "./NavTabs";
+
+const MOVE_OPTIONS_ID = "move-name-options";
+
+// Bundles the move-editing state and handlers that ActivePokemonCard/ActiveMove need,
+// so BattleBrowser doesn't have to thread a dozen individual props down two levels.
+interface MoveEditState {
+    editing?: { pokemonIdx: number; slot: MoveSlot };
+    value: string;
+    error?: string;
+    saving: boolean;
+    isOverridden: (pokemonIdx: number, slot: MoveSlot) => boolean;
+    onStart: (pokemonIdx: number, slot: MoveSlot, currentName: string) => void;
+    onCancel: () => void;
+    onChangeValue: (value: string) => void;
+    onSave: () => void;
+    onReset: (pokemonIdx: number, slot: MoveSlot) => void;
+}
 
 export interface BattleBrowserProps {
     gameTitle: string;
     trainers: TrainerEntry[];
+    /** Namespaces move-edit overrides in localStorage so games don't collide with each other. */
+    storageKey: string;
     /**
      * "flat": a single scrollable trainer list with a quick-jump bar for one
      *   highlighted category (mirrors the original Mogul Platinum gym-leader jump bar).
@@ -27,102 +50,192 @@ export interface BattleBrowserProps {
     categoryOrder?: string[];
 }
 
-function ActiveMove({ move }: { move?: MoveDetail }) {
-    if (!move) return null;
+function TypePill({ type, small }: { type: string; small?: boolean }) {
+    return <span className={`type-pill ${type.toLocaleLowerCase()}${small ? " type-pill-small" : ""}`}>{type}</span>;
+}
+
+function StatBars({ stats }: { stats: { name: string; value: number }[] }) {
     return (
-        <div className="active-pokemon-move">
-            <div className="row gap-8">
-                <Whisper trigger="click" placement="bottomStart" speaker={<Tooltip>{move.effect}</Tooltip>}>
-                    <div className="move-name">{move.name}</div>
-                </Whisper>
-                {move.power ? (
-                    <div className="row gap-4">
-                        <PowerIcon />
-                        <div className="move-power">{move.power}</div>
+        <div className="poke-stats">
+            {stats.map((s) => (
+                <div className="poke-stat-row" key={s.name}>
+                    <span className="poke-stat-label">{statAbbreviation(s.name)}</span>
+                    <span className="poke-stat-value" style={{ color: statColor(s.value) }}>
+                        {s.value}
+                    </span>
+                    <div className="poke-stat-bar">
+                        <div
+                            className="poke-stat-bar-fill"
+                            style={{ width: statBarWidth(s.value), backgroundColor: statColor(s.value) }}
+                        />
                     </div>
-                ) : null}
-            </div>
-            <div className="row gap-4">
-                <div className="class-icon">
-                    <DamageClassIcon damageClass={move.class} />
                 </div>
-                <div className={`move-type ${move.type?.toLocaleLowerCase()}`}>{move.type}</div>
+            ))}
+        </div>
+    );
+}
+
+function CardHeader({ pokemon }: { pokemon: RawPokemon | FormattedPokemon }) {
+    return (
+        <div className={`poke-card-header header-${pokemon.types[0]?.toLocaleLowerCase()}`}>
+            <div className="poke-card-types">
+                {pokemon.types.map((t) => (
+                    <TypePill type={t} key={t} />
+                ))}
             </div>
+            <div className="poke-card-title-row">
+                <div className="poke-card-level">
+                    <div className="poke-card-level-label">Level</div>
+                    <div className="poke-card-level-value">{pokemon.Level}</div>
+                </div>
+                <div className="poke-card-name-ability">
+                    <div className="poke-card-ability">
+                        {pokemon.Ability}
+                        {pokemon.Item ? <span className="poke-card-item"> • {pokemon.Item}</span> : null}
+                    </div>
+                    <div className="poke-card-name">{pokemon["Pokémon"]}</div>
+                </div>
+            </div>
+            <img src={pokemon.sprite} className="poke-card-sprite" alt="" />
+            <div className="poke-card-weight">{pokemon.weight}</div>
         </div>
     );
 }
 
 function PokemonListCard({ pokemon }: { pokemon: RawPokemon }) {
     return (
-        <div className="pokemon-container">
-            <div>
-                <div className="pokemon-name">
-                    {pokemon["Pokémon"]} ({pokemon.Level})
+        <div className="poke-card">
+            <CardHeader pokemon={pokemon} />
+            <div className="poke-card-body">
+                <div className="poke-card-moves poke-card-moves-plain">
+                    {([1, 2, 3, 4] as const).map((n) => {
+                        const move = pokemon[`Move ${n}` as "Move 1"];
+                        if (!move) return null;
+                        return (
+                            <div className="poke-card-move-plain" key={n}>
+                                {move}
+                            </div>
+                        );
+                    })}
                 </div>
-                <div className="poke-sprite-container">
-                    <img src={pokemon.sprite} className="poke-sprite" alt="" />
-                </div>
-                <div className="types">
-                    {pokemon.types.map((t) => (
-                        <div className={`type ${t.toLocaleLowerCase()}`} key={t}>
-                            {t}
-                        </div>
-                    ))}
-                </div>
+                {pokemon["Default Moveset"] ? <div className="default-moveset-tag">default moveset</div> : null}
             </div>
-
-            <div className="ability">{pokemon.Ability || ""}</div>
-            <div className="item">{pokemon.Item || ""}</div>
-
-            <div className="pokemon-moves">
-                <div className="pokemon-move">{pokemon["Move 1"]}</div>
-                <div className="pokemon-move">{pokemon["Move 2"]}</div>
-                <div className="pokemon-move">{pokemon["Move 3"]}</div>
-                <div className="pokemon-move">{pokemon["Move 4"]}</div>
-            </div>
-            {pokemon["Default Moveset"] ? <div className="default-moveset-tag">default moveset</div> : null}
         </div>
     );
 }
 
-function ActivePokemonCard({ pokemon }: { pokemon: FormattedPokemon }) {
+function ActiveMove({
+    move,
+    slot,
+    pokemonIdx,
+    editState,
+}: {
+    move?: MoveDetail;
+    slot: MoveSlot;
+    pokemonIdx: number;
+    editState: MoveEditState;
+}) {
+    const isEditing = editState.editing?.pokemonIdx === pokemonIdx && editState.editing?.slot === slot;
+
+    if (isEditing) {
+        return (
+            <div className="poke-card-move poke-card-move-editing">
+                <input
+                    className="move-edit-input"
+                    list={MOVE_OPTIONS_ID}
+                    value={editState.value}
+                    autoFocus
+                    onChange={(e) => editState.onChangeValue(e.target.value)}
+                    onKeyDown={(e) => {
+                        if (e.key === "Enter") editState.onSave();
+                        if (e.key === "Escape") editState.onCancel();
+                    }}
+                />
+                <div className="move-edit-actions">
+                    <span
+                        className="move-edit-btn move-edit-save"
+                        onClick={() => !editState.saving && editState.onSave()}
+                    >
+                        {editState.saving ? "…" : "✓"}
+                    </span>
+                    <span className="move-edit-btn move-edit-cancel" onClick={() => editState.onCancel()}>
+                        ✕
+                    </span>
+                </div>
+                {editState.error ? <div className="move-edit-error">{editState.error}</div> : null}
+            </div>
+        );
+    }
+
+    if (!move) {
+        return (
+            <div className="poke-card-move poke-card-move-empty">
+                <span className="move-edit-pencil" onClick={() => editState.onStart(pokemonIdx, slot, "")}>
+                    + add move
+                </span>
+            </div>
+        );
+    }
+
     return (
-        <div className="active-pokemon-container pokemon-container">
-            <div>
-                <div className="pokemon-name">
-                    {pokemon["Pokémon"]} ({pokemon.Level})
-                </div>
-                <div className="poke-sprite-container">
-                    <img src={pokemon.sprite} className="poke-sprite" alt="" />
-                </div>
-                <div className="types">
-                    {pokemon.types.map((t) => (
-                        <div className={`type ${t.toLocaleLowerCase()}`} key={t}>
-                            {t}
-                        </div>
-                    ))}
-                </div>
+        <div className="poke-card-move">
+            <div className="poke-card-move-top">
+                <Whisper trigger="click" placement="bottomStart" speaker={<Tooltip>{move.effect}</Tooltip>}>
+                    <span className="move-name">{move.name}</span>
+                </Whisper>
+                {move.power ? (
+                    <span className="move-power">
+                        <PowerIcon />
+                        {move.power}
+                    </span>
+                ) : null}
+                <span
+                    className="move-edit-pencil"
+                    title="Edit move"
+                    onClick={() => editState.onStart(pokemonIdx, slot, move.name)}
+                >
+                    ✎
+                </span>
+                {editState.isOverridden(pokemonIdx, slot) ? (
+                    <span
+                        className="move-edit-pencil move-edit-reset"
+                        title="Reset to original move"
+                        onClick={() => editState.onReset(pokemonIdx, slot)}
+                    >
+                        ↺
+                    </span>
+                ) : null}
             </div>
-
-            <div className="row gap-8 space-between">
-                <div className="ability">{pokemon.Ability || ""}</div>
-                <div className="item">{pokemon.Item || ""}</div>
+            <div className="poke-card-move-meta">
+                <span className="class-icon">
+                    <DamageClassIcon damageClass={move.class} />
+                </span>
+                {move.type ? <TypePill type={move.type} small /> : null}
             </div>
+        </div>
+    );
+}
 
-            <div className="active-pokemon-moves">
-                <ActiveMove move={pokemon["Move 1"]} />
-                <ActiveMove move={pokemon["Move 2"]} />
-                <ActiveMove move={pokemon["Move 3"]} />
-                <ActiveMove move={pokemon["Move 4"]} />
-            </div>
-
-            <div className="stats">
-                {pokemon.stats.map((s, i) => (
-                    <div className={i % 2 === 0 ? "stat-container-1" : "stat-container-2"} key={s.name}>
-                        <div className="stat-label">{s.name}</div>
-                        <div className="stat-value">{s.value}</div>
-                    </div>
-                ))}
+function ActivePokemonCard({
+    pokemon,
+    pokemonIdx,
+    editState,
+}: {
+    pokemon: FormattedPokemon;
+    pokemonIdx: number;
+    editState: MoveEditState;
+}) {
+    return (
+        <div className="poke-card poke-card-detail">
+            <CardHeader pokemon={pokemon} />
+            <div className="poke-card-body">
+                <div className="poke-card-moves">
+                    <ActiveMove move={pokemon["Move 1"]} slot="Move 1" pokemonIdx={pokemonIdx} editState={editState} />
+                    <ActiveMove move={pokemon["Move 2"]} slot="Move 2" pokemonIdx={pokemonIdx} editState={editState} />
+                    <ActiveMove move={pokemon["Move 3"]} slot="Move 3" pokemonIdx={pokemonIdx} editState={editState} />
+                    <ActiveMove move={pokemon["Move 4"]} slot="Move 4" pokemonIdx={pokemonIdx} editState={editState} />
+                </div>
+                <StatBars stats={pokemon.stats} />
             </div>
             {pokemon["Default Moveset"] ? (
                 <div className="default-moveset-tag">default moveset (not custom-set by trainer)</div>
@@ -134,6 +247,7 @@ function ActivePokemonCard({ pokemon }: { pokemon: FormattedPokemon }) {
 export default function BattleBrowser({
     gameTitle,
     trainers,
+    storageKey,
     mode,
     highlightCategory,
     quickJumpLabel,
@@ -143,15 +257,88 @@ export default function BattleBrowser({
     const [search, setSearch] = useState("");
     const [categoryFilter, setCategoryFilter] = useState<string>();
 
+    const [overrides, setOverrides] = useState(() => loadOverrides(storageKey));
+    const [moveNames, setMoveNames] = useState<string[]>([]);
+    const [editing, setEditing] = useState<{ pokemonIdx: number; slot: MoveSlot }>();
+    const [editValue, setEditValue] = useState("");
+    const [editError, setEditError] = useState<string>();
+    const [editSaving, setEditSaving] = useState(false);
+
+    useEffect(() => {
+        fetchAllMoveNames().then(setMoveNames);
+    }, []);
+
+    useEffect(() => {
+        setLastGame(storageKey);
+    }, [storageKey]);
+
     const loadTrainer = async (idx: number) => {
         const trainer = trainers[idx];
-        const formattedPokemon = await Promise.all(trainer.pokemon.map((p) => formatPokemon(p)));
+        const withOverrides = applyOverrides(overrides, trainer.key, trainer.pokemon);
+        const formattedPokemon = await Promise.all(withOverrides.map((p) => formatPokemon(p)));
         setActiveTrainer({
             key: trainer.key,
             label: trainer.label,
             idx,
             pokemon: formattedPokemon,
         });
+    };
+
+    const editState: MoveEditState = {
+        editing,
+        value: editValue,
+        error: editError,
+        saving: editSaving,
+        isOverridden: (pokemonIdx, slot) =>
+            !!activeTrainer && getOverride(overrides, activeTrainer.key, pokemonIdx, slot) !== undefined,
+        onStart: (pokemonIdx, slot, currentName) => {
+            setEditing({ pokemonIdx, slot });
+            setEditValue(currentName);
+            setEditError(undefined);
+        },
+        onCancel: () => {
+            setEditing(undefined);
+            setEditError(undefined);
+        },
+        onChangeValue: (value) => setEditValue(value),
+        onSave: async () => {
+            if (!editing || !activeTrainer) return;
+            const name = editValue.trim();
+            if (!name) return;
+            setEditSaving(true);
+            setEditError(undefined);
+            try {
+                const detail = await fetchMove(name);
+                const updated = setMoveOverride(storageKey, activeTrainer.key, editing.pokemonIdx, editing.slot, detail.name);
+                setOverrides(updated);
+                const { pokemonIdx, slot } = editing;
+                setActiveTrainer((prev) =>
+                    prev
+                        ? {
+                              ...prev,
+                              pokemon: prev.pokemon.map((p, i) => (i === pokemonIdx ? { ...p, [slot]: detail } : p)),
+                          }
+                        : prev
+                );
+                setEditing(undefined);
+            } catch {
+                setEditError(`No move named "${name}"`);
+            } finally {
+                setEditSaving(false);
+            }
+        },
+        onReset: async (pokemonIdx, slot) => {
+            if (!activeTrainer) return;
+            const updated = setMoveOverride(storageKey, activeTrainer.key, pokemonIdx, slot, null);
+            setOverrides(updated);
+            const original = trainers[activeTrainer.idx].pokemon[pokemonIdx][slot];
+            const detail = original ? await fetchMove(original).catch(() => undefined) : undefined;
+            setActiveTrainer((prev) =>
+                prev
+                    ? { ...prev, pokemon: prev.pokemon.map((p, i) => (i === pokemonIdx ? { ...p, [slot]: detail } : p)) }
+                    : prev
+            );
+        },
     };
 
     const scrollToElement = (id: string) => {
@@ -209,6 +396,14 @@ export default function BattleBrowser({
 
     return (
         <div className="page-container">
+            <datalist id={MOVE_OPTIONS_ID}>
+                {moveNames.map((name) => (
+                    <option value={name} key={name} />
+                ))}
+            </datalist>
+
+            <NavTabs />
+
             <Link to="/" className="back-link">
                 ← All Games
             </Link>
@@ -234,10 +429,10 @@ export default function BattleBrowser({
             ) : null}
 
             {mode === "sequence" && !activeTrainer ? (
-                <div className="gym-leaders category-jump">
+                <div className="category-tabs">
                     {categories.map((cat) => (
                         <div
-                            className={`gym-leader category-filter-chip${categoryFilter === cat ? " active" : ""}`}
+                            className={`category-tab${categoryFilter === cat ? " active" : ""}`}
                             onClick={() => setCategoryFilter(categoryFilter === cat ? undefined : cat)}
                             key={cat}
                         >
@@ -257,7 +452,7 @@ export default function BattleBrowser({
 
                     <div className="trainer-pokemon-list">
                         {activeTrainer.pokemon.map((p, i) => (
-                            <ActivePokemonCard pokemon={p} key={i} />
+                            <ActivePokemonCard pokemon={p} pokemonIdx={i} editState={editState} key={i} />
                         ))}
                     </div>
 
@@ -329,10 +524,13 @@ export default function BattleBrowser({
                               return (
                                   <div className="trainer" id={trainer.key} key={trainer.key}>
                                       <div className="trainer-header" onClick={() => loadTrainer(idx)}>
-                                          <div className="trainer-name">{trainer.label}</div>
-                                          {mode === "sequence" && trainer.category ? (
-                                              <div className="trainer-category-tag">{trainer.category}</div>
-                                          ) : null}
+                                          <div className="trainer-heading">
+                                              <div className="trainer-name">{trainer.label}</div>
+                                              {mode === "sequence" && trainer.category ? (
+                                                  <div className="trainer-category-tag">{trainer.category}</div>
+                                              ) : null}
+                                          </div>
+                                          <div className="trainer-open-hint">View team →</div>
                                       </div>
                                       <div className="trainer-pokemon-list">
                                           {trainer.pokemon.map((p, i) => (

@@ -57,6 +57,61 @@
         }
       ]
     },
+    "Team Somber - Gabrielle 1": {
+      "Trainer": "Team Somber - Gabrielle 1",
+      "Battle Type": "Admin",
+      "Battle ID": "team_somber_gabrielle_1",
+      "Pokemon": [
+        {
+          "Trainer": "Team Somber - Gabrielle 1",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_gabrielle_1",
+          "Pokémon": "Zorua Hisui",
+          "Dex Number": 570,
+          "Level": 11,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Illusion",
+          "Move 1": "Hone Claws",
+          "Move 2": "Scratch",
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png",
+          "types": [
+            "normal",
+            "ghost"
+          ],
+          "weight": 125,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 35
+            },
+            {
+              "name": "attack",
+              "value": 60
+            },
+            {
+              "name": "defense",
+              "value": 40
+            },
+            {
+              "name": "special-attack",
+              "value": 85
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 70
+            }
+          ],
+          "Default Moveset": null
+        }
+      ]
+    },
     "Inger": {
       "Trainer": "Inger",
       "Battle Type": "Gym Leader",
@@ -267,10 +322,10 @@
           "Item": "Oran Berry",
           "Nature": "Hardy",
           "Ability": "Flash Fire",
-          "Move 1": "Leer",
-          "Move 2": "Poison Fang",
-          "Move 3": "Focus Energy",
-          "Move 4": "Scary Face",
+          "Move 1": "Fire Spin",
+          "Move 2": "Clear Smog",
+          "Move 3": null,
+          "Move 4": null,
           "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
           "types": [
             "fire"
@@ -302,7 +357,109 @@
               "value": 35
             }
           ],
-          "Default Moveset": true
+          "Default Moveset": false
+        }
+      ]
+    },
+    "Team Somber - Double Battle 1": {
+      "Trainer": "Team Somber - Double Battle 1",
+      "Battle Type": "Admin",
+      "Battle ID": "team_somber_double_battle_1",
+      "Pokemon": [
+        {
+          "Trainer": "Team Somber - Double Battle 1",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_double_battle_1",
+          "Pokémon": "Drowzee",
+          "Dex Number": 96,
+          "Level": 14,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Insomnia",
+          "Move 1": "Confusion",
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+          "types": [
+            "psychic"
+          ],
+          "weight": 324,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 48
+            },
+            {
+              "name": "defense",
+              "value": 45
+            },
+            {
+              "name": "special-attack",
+              "value": 43
+            },
+            {
+              "name": "special-defense",
+              "value": 90
+            },
+            {
+              "name": "speed",
+              "value": 42
+            }
+          ],
+          "Default Moveset": null
+        },
+        {
+          "Trainer": "Team Somber - Double Battle 1",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_double_battle_1",
+          "Pokémon": "Impidimp",
+          "Dex Number": 859,
+          "Level": 13,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Prankster",
+          "Move 1": "Bite",
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png",
+          "types": [
+            "dark",
+            "fairy"
+          ],
+          "weight": 55,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 45
+            },
+            {
+              "name": "attack",
+              "value": 45
+            },
+            {
+              "name": "defense",
+              "value": 30
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ],
+          "Default Moveset": null
         }
       ]
     },
@@ -694,6 +851,309 @@
             }
           ],
           "Default Moveset": true
+        }
+      ]
+    },
+    "Team Somber - Mountain Club Gabrielle 2": {
+      "Trainer": "Team Somber - Mountain Club Gabrielle 2",
+      "Battle Type": "Admin",
+      "Battle ID": "team_somber_mountain_club_gabrielle_2",
+      "Pokemon": [
+        {
+          "Trainer": "Team Somber - Mountain Club Gabrielle 2",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_mountain_club_gabrielle_2",
+          "Pokémon": "Zorua Hisui",
+          "Dex Number": 570,
+          "Level": 16,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Illusion",
+          "Move 1": "Shadow Sneak",
+          "Move 2": "Hone Claws",
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png",
+          "types": [
+            "normal",
+            "ghost"
+          ],
+          "weight": 125,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 35
+            },
+            {
+              "name": "attack",
+              "value": 60
+            },
+            {
+              "name": "defense",
+              "value": 40
+            },
+            {
+              "name": "special-attack",
+              "value": 85
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 70
+            }
+          ],
+          "Default Moveset": null,
+          "Context/Notes": "Fights disguised as another Pokémon (Illusion)."
+        },
+        {
+          "Trainer": "Team Somber - Mountain Club Gabrielle 2",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_mountain_club_gabrielle_2",
+          "Pokémon": "Baltoy",
+          "Dex Number": 343,
+          "Level": 16,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Levitate",
+          "Move 1": "Rock Tomb",
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/343.png",
+          "types": [
+            "ground",
+            "psychic"
+          ],
+          "weight": 215,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 40
+            },
+            {
+              "name": "attack",
+              "value": 40
+            },
+            {
+              "name": "defense",
+              "value": 55
+            },
+            {
+              "name": "special-attack",
+              "value": 40
+            },
+            {
+              "name": "special-defense",
+              "value": 70
+            },
+            {
+              "name": "speed",
+              "value": 55
+            }
+          ],
+          "Default Moveset": null,
+          "Context/Notes": "Level approximate — not specified in source notes."
+        }
+      ]
+    },
+    "Team Somber - Double Battle 2": {
+      "Trainer": "Team Somber - Double Battle 2",
+      "Battle Type": "Admin",
+      "Battle ID": "team_somber_double_battle_2",
+      "Pokemon": [
+        {
+          "Trainer": "Team Somber - Double Battle 2",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_double_battle_2",
+          "Pokémon": "Drowzee",
+          "Dex Number": 96,
+          "Level": 17,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Insomnia",
+          "Move 1": "Confusion",
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+          "types": [
+            "psychic"
+          ],
+          "weight": 324,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 60
+            },
+            {
+              "name": "attack",
+              "value": 48
+            },
+            {
+              "name": "defense",
+              "value": 45
+            },
+            {
+              "name": "special-attack",
+              "value": 43
+            },
+            {
+              "name": "special-defense",
+              "value": 90
+            },
+            {
+              "name": "speed",
+              "value": 42
+            }
+          ],
+          "Default Moveset": null
+        },
+        {
+          "Trainer": "Team Somber - Double Battle 2",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_double_battle_2",
+          "Pokémon": "Yanma",
+          "Dex Number": 193,
+          "Level": 18,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Speed Boost",
+          "Move 1": "Detect",
+          "Move 2": "Double Team",
+          "Move 3": "Air Cutter",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
+          "types": [
+            "bug",
+            "flying"
+          ],
+          "weight": 380,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 65
+            },
+            {
+              "name": "attack",
+              "value": 65
+            },
+            {
+              "name": "defense",
+              "value": 45
+            },
+            {
+              "name": "special-attack",
+              "value": 75
+            },
+            {
+              "name": "special-defense",
+              "value": 45
+            },
+            {
+              "name": "speed",
+              "value": 95
+            }
+          ],
+          "Default Moveset": null
+        },
+        {
+          "Trainer": "Team Somber - Double Battle 2",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_double_battle_2",
+          "Pokémon": "Impidimp",
+          "Dex Number": 859,
+          "Level": 17,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Prankster",
+          "Move 1": "Bite",
+          "Move 2": "Assurance",
+          "Move 3": "Flatter",
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/859.png",
+          "types": [
+            "dark",
+            "fairy"
+          ],
+          "weight": 55,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 45
+            },
+            {
+              "name": "attack",
+              "value": 45
+            },
+            {
+              "name": "defense",
+              "value": 30
+            },
+            {
+              "name": "special-attack",
+              "value": 55
+            },
+            {
+              "name": "special-defense",
+              "value": 40
+            },
+            {
+              "name": "speed",
+              "value": 50
+            }
+          ],
+          "Default Moveset": null
+        },
+        {
+          "Trainer": "Team Somber - Double Battle 2",
+          "Battle Type": "Admin",
+          "Battle ID": "team_somber_double_battle_2",
+          "Pokémon": "Bronzor",
+          "Dex Number": 436,
+          "Level": 19,
+          "Item": null,
+          "Nature": "Hardy",
+          "Ability": "Levitate",
+          "Move 1": "Payback",
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+          "types": [
+            "steel",
+            "psychic"
+          ],
+          "weight": 605,
+          "stats": [
+            {
+              "name": "hp",
+              "value": 57
+            },
+            {
+              "name": "attack",
+              "value": 24
+            },
+            {
+              "name": "defense",
+              "value": 86
+            },
+            {
+              "name": "special-attack",
+              "value": 24
+            },
+            {
+              "name": "special-defense",
+              "value": 86
+            },
+            {
+              "name": "speed",
+              "value": 23
+            }
+          ],
+          "Default Moveset": null
         }
       ]
     },
@@ -1097,48 +1557,48 @@
           "Trainer": "Gloria",
           "Battle Type": "Gym Leader",
           "Battle ID": "silversungym_leader",
-          "Pokémon": "Roserade",
-          "Dex Number": 407,
+          "Pokémon": "Lilligant",
+          "Dex Number": 549,
           "Level": 26,
           "Item": "Big Root",
           "Nature": "Hardy",
-          "Ability": "Natural Cure",
-          "Move 1": "Growth",
-          "Move 2": "Giga Drain",
-          "Move 3": "Ingrain",
-          "Move 4": "Sludge Bomb",
-          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+          "Ability": "Chlorophyll",
+          "Move 1": null,
+          "Move 2": null,
+          "Move 3": null,
+          "Move 4": null,
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
           "types": [
-            "grass",
-            "poison"
+            "grass"
           ],
-          "weight": 145,
+          "weight": 163,
           "stats": [
             {
               "name": "hp",
-              "value": 60
-            },
-            {
-              "name": "attack",
               "value": 70
             },
             {
+              "name": "attack",
+              "value": 60
+            },
+            {
               "name": "defense",
-              "value": 65
+              "value": 75
             },
             {
               "name": "special-attack",
-              "value": 125
+              "value": 110
             },
             {
               "name": "special-defense",
-              "value": 105
+              "value": 75
             },
             {
               "name": "speed",
               "value": 90
             }
-          ]
+          ],
+          "Default Moveset": null
         },
         {
           "Trainer": "Gloria",
@@ -1193,7 +1653,7 @@
           "Battle ID": "silversungym_leader",
           "Pokémon": "Bombirdier",
           "Dex Number": 962,
-          "Level": 28,
+          "Level": 26,
           "Item": "Rock Gem",
           "Nature": "Hardy",
           "Ability": "Rocky Payload",
@@ -1635,48 +2095,49 @@
           "Trainer": "Carona",
           "Battle Type": "Gym Leader",
           "Battle ID": "mirrohbasecamp_leader",
-          "Pokémon": "Sneasler",
-          "Dex Number": 903,
+          "Pokémon": "Toxicroak",
+          "Dex Number": 454,
           "Level": 31,
           "Item": "Fighting Gem",
           "Nature": "Hardy",
-          "Ability": "Unburden",
-          "Move 1": "Dire Claw",
-          "Move 2": "Acrobatics",
-          "Move 3": "Close Combat",
+          "Ability": "Anticipation",
+          "Move 1": null,
+          "Move 2": null,
+          "Move 3": null,
           "Move 4": null,
-          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
+          "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
           "types": [
-            "fighting",
-            "poison"
+            "poison",
+            "fighting"
           ],
-          "weight": 430,
+          "weight": 444,
           "stats": [
             {
               "name": "hp",
-              "value": 80
+              "value": 83
             },
             {
               "name": "attack",
-              "value": 130
+              "value": 106
             },
             {
               "name": "defense",
-              "value": 60
+              "value": 65
             },
             {
               "name": "special-attack",
-              "value": 40
+              "value": 86
             },
             {
               "name": "special-defense",
-              "value": 80
+              "value": 65
             },
             {
               "name": "speed",
-              "value": 120
+              "value": 85
             }
-          ]
+          ],
+          "Default Moveset": null
         },
         {
           "Trainer": "Carona",
@@ -2171,7 +2632,7 @@
           "Battle ID": "winterlily_hollow_gym_leader",
           "Pokémon": "Manectric",
           "Dex Number": 310,
-          "Level": 45,
+          "Level": 43,
           "Item": "Manectite",
           "Nature": "Hardy",
           "Ability": "Static",
@@ -4911,5 +5372,5 @@
       ]
     }
   },
-  "Note": "Moves marked with \"Default Moveset\": true were not custom-defined by the trainer in the game's source data and were computed from the species' level-up learnset (extracted directly from the game's ROM) instead. Trainer order approximates story progression based on the source file's authoring order plus location-name matching for newly-added battles; it is not verified against full map-traversal data."
+  "Note": "Moves marked with \"Default Moveset\": true were not custom-defined by the trainer in the game's source data and were computed from the species' level-up learnset (extracted directly from the game's ROM) instead. Trainer order approximates story progression based on the source file's authoring order plus location-name matching for newly-added battles; it is not verified against full map-traversal data. Moves confirmed directly by the player (not from ROM extraction) are marked without \"Default Moveset\", and slots left null (empty) mean that move is genuinely unconfirmed — click a move in the app to fill it in."
 }

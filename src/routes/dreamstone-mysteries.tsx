@@ -37,6 +37,7 @@ export default function DreamstoneMysteries() {
         <BattleBrowser
             gameTitle={`${bossTeams.Game} — ${bossTeams.Version}`}
             trainers={trainers}
+            storageKey="dreamstone-mysteries"
             mode="sequence"
             categoryOrder={CATEGORY_ORDER}
         />

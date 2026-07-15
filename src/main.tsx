@@ -6,6 +6,7 @@ import { RouterProvider } from "react-router/dom";
 import Home from './routes/home.tsx';
 import MogulPlatinum from './routes/mogul-platinum.tsx';
 import DreamstoneMysteries from './routes/dreamstone-mysteries.tsx';
+import Encounters from './routes/encounters.tsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/dreamstone-mysteries",
     Component: DreamstoneMysteries,
+  },
+  {
+    path: "/encounters",
+    Component: Encounters,
   },
 ]);
 

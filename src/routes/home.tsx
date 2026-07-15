@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import NavTabs from "../components/NavTabs";
 import { TrainerPokemonHash } from "../assets/mogul-platinum/TrainerPokemon";
 import bossTeamsData from "../assets/dreamstone-mysteries/boss-teams-full.json";
 
@@ -21,6 +22,7 @@ const games = [
 export default function Home() {
     return (
         <div className="page-container home-container">
+            <NavTabs />
             <h1 className="game-heading">Nuzlocke Battle Prep</h1>
             <p className="home-subtitle">Pick a game to browse boss trainer teams.</p>
 

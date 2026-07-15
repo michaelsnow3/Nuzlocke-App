@@ -45,6 +45,8 @@ export type FormattedPokemon = Omit<RawPokemon, "Move 1" | "Move 2" | "Move 3" |
     "Move 4"?: MoveDetail;
 };
 
+export type MoveSlot = "Move 1" | "Move 2" | "Move 3" | "Move 4";
+
 // A trainer battle, normalized to a common shape regardless of source game.
 export interface TrainerEntry {
     key: string;

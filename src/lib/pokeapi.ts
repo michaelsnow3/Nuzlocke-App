@@ -4,14 +4,17 @@ import type { FormattedPokemon, MoveDetail, RawPokemon } from "../types/battle";
 // games, within a session), so cache them instead of re-fetching on every click.
 const moveCache = new Map<string, MoveDetail>();
 
-const moveSlug = (moveName: string) => moveName.toLowerCase().replace(/\s+/g, "-");
+const moveSlug = (moveName: string) => moveName.toLowerCase().trim().replace(/\s+/g, "-");
 
-async function fetchMove(moveName: string): Promise<MoveDetail> {
+// Resolves a single move name (as typed by a user, or as stored in source data) into
+// full move details via PokeAPI. Throws if the name doesn't match a real move.
+export async function fetchMove(moveName: string): Promise<MoveDetail> {
     const key = moveSlug(moveName);
     const cached = moveCache.get(key);
     if (cached) return cached;
 
     const res = await fetch(`https://pokeapi.co/api/v2/move/${key}`);
+    if (!res.ok) throw new Error(`Unknown move "${moveName}"`);
     const data = await res.json();
     const detail: MoveDetail = {
         name: moveName,
@@ -36,7 +39,7 @@ export async function formatPokemon(pokemon: RawPokemon): Promise<FormattedPokem
     const moves = await Promise.all(
         slots.map((slot) => {
             const moveName = pokemon[slot];
-            return moveName ? fetchMove(moveName) : Promise.resolve(undefined);
+            return moveName ? fetchMove(moveName).catch(() => undefined) : Promise.resolve(undefined);
         })
     );
 
@@ -47,4 +50,51 @@ export async function formatPokemon(pokemon: RawPokemon): Promise<FormattedPokem
         "Move 3": moves[2],
         "Move 4": moves[3],
     };
+}
+
+// Lightweight species lookup (sprite + types only) used to preview an encounter-tracker
+// row once the user types a recognizable species name. Cached separately from moves.
+const pokemonBasicCache = new Map<string, { sprite: string; types: string[] } | null>();
+
+export async function fetchPokemonBasic(name: string): Promise<{ sprite: string; types: string[] } | undefined> {
+    const key = moveSlug(name);
+    if (!key) return undefined;
+    if (pokemonBasicCache.has(key)) return pokemonBasicCache.get(key) ?? undefined;
+
+    try {
+        const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${key}`);
+        if (!res.ok) throw new Error("not found");
+        const data = await res.json();
+        const result = {
+            sprite: data.sprites?.front_default as string,
+            types: (data.types as { type: { name: string } }[]).map((t) => t.type.name),
+        };
+        pokemonBasicCache.set(key, result);
+        return result;
+    } catch {
+        pokemonBasicCache.set(key, null);
+        return undefined;
+    }
+}
+
+// Full list of official move names (Title Case, e.g. "Will-O-Wisp"), used to power
+// the autocomplete list in the move editor. Fetched once and cached for the session.
+let allMoveNamesPromise: Promise<string[]> | undefined;
+
+const toTitleCase = (slug: string) =>
+    slug
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+
+export function fetchAllMoveNames(): Promise<string[]> {
+    if (!allMoveNamesPromise) {
+        allMoveNamesPromise = fetch("https://pokeapi.co/api/v2/move?limit=2000")
+            .then((res) => res.json())
+            .then((data: { results: { name: string }[] }) =>
+                data.results.map((m) => toTitleCase(m.name)).sort((a, b) => a.localeCompare(b))
+            )
+            .catch(() => []);
+    }
+    return allMoveNamesPromise;
 }

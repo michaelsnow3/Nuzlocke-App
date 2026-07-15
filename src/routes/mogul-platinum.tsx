@@ -19,6 +19,7 @@ export default function MogulPlatinum() {
         <BattleBrowser
             gameTitle="Mogul Platinum"
             trainers={trainers}
+            storageKey="mogul-platinum"
             mode="flat"
             highlightCategory="Gym Leader"
             quickJumpLabel={(t) => `Gym ${t.key.split(" ")[1]}`}
