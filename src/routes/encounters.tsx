@@ -64,7 +64,7 @@ export default function Encounters() {
 
     const addRow = () => update([...encounters, newEncounter()]);
 
-    const removeRow = (id: string) => update(encounters.filter((e) => e.id !== id));
+    // const removeRow = (id: string) => update(encounters.filter((e) => e.id !== id));
 
     const handleClear = () => {
         const game = GAMES.find((g) => g.id === gameId);
