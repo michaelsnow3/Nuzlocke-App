@@ -156,9 +156,9 @@ export default function Encounters() {
                                     </option>
                                 ))}
                             </select>
-                            <span className="encounter-remove" onClick={() => removeRow(e.id)} title="Remove row">
+                            {/* <span className="encounter-remove" onClick={() => removeRow(e.id)} title="Remove row">
                                 ✕
-                            </span>
+                            </span> */}
                         </div>
                     ))
                 )}
